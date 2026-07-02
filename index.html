@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海南政企项目信息聚合平台</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  /* 自定义样式 */
+  :root {
+    --primary: #185FA5;
+    --accent: #E91E63;
+    --it-color: #7C4DFF;
+    --success: #4CAF50;
+    --warning: #FF9800;
+    --bg-dark: #0F172A;
+    --bg-card: #1E293B;
+    --bg-card-light: #F8FAFC;
+    --text-main: #E2E8F0;
+    --text-muted: #94A3B8;
+  }
+  body {
+    background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1a2e 100%);
+    color: var(--text-main);
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  }
+  .glass-card {
+    background: rgba(30, 41, 59, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 12px;
+  }
+  .it-highlight {
+    background: linear-gradient(135deg, rgba(124, 77, 255, 0.2), rgba(233, 30, 99, 0.15));
+    border-left: 4px solid var(--it-color);
+  }
+  .merged-badge {
+    background: linear-gradient(135deg, #FF9800, #F57C00);
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+  }
+  .it-badge {
+    background: linear-gradient(135deg, var(--it-color), #9C27B0);
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin-right: 4px;
+  }
+  .stat-card {
+    transition: transform 0.2s;
+  }
+  .stat-card:hover {
+    transform: translateY(-3px);
+  }
+  .project-row {
+    transition: background 0.15s;
+  }
+  .project-row:hover {
+    background: rgba(148, 163, 184, 0.1);
+  }
+  .loading-spinner {
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .pulse-dot {
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  /* 搜索框样式 */
+  .search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(24, 95, 165, 0.3);
+  }
+  /* 滚动条美化 */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: rgba(30,41,59,0.3); }
+  ::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.3); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(148,163,184,0.5); }
+  /* 表格行 IT高亮 */
+  .it-row { border-left: 3px solid var(--it-color); }
+  /* Tab 激活样式 */
+  .tab-active {
+    background: var(--primary);
+    color: white;
+  }
+  .tab-inactive {
+    background: rgba(30,41,59,0.5);
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="sticky top-0 z-50 glass-card px-6 py-3 mb-4 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+      <i class="fas fa-building text-white text-lg"></i>
+    </div>
+    <div>
+      <h1 class="text-xl font-bold tracking-wide">海南政企项目信息聚合平台</h1>
+      <p class="text-sm text-slate-400">5源采集 · 跨源合并 · IT强化标注</p>
+    </div>
+  </div>
+  <div class="flex items-center gap-4">
+    <span id="updateTime" class="text-xs text-slate-500">
+      <i class="fas fa-clock mr-1"></i>等待数据加载...
+    </span>
+    <span id="statusDot" class="pulse-dot w-2 h-2 rounded-full bg-yellow-400 inline-block"></span>
+    <!-- 静态版：数据已内置，无需刷新和导出 -->
+  </div>
+</header>
+
+<!-- ===== 统计卡片 ===== -->
+<section class="px-6 mb-6 grid grid-cols-2 md:grid-cols-5 gap-4 fade-in" id="statsCards">
+  <div class="glass-card stat-card p-4 text-center">
+    <div class="text-3xl font-bold text-blue-400" id="statTotal">--</div>
+    <div class="text-sm text-slate-400 mt-1">项目总数</div>
+  </div>
+  <div class="glass-card stat-card p-4 text-center">
+    <div class="text-3xl font-bold text-purple-400" id="statIT">--</div>
+    <div class="text-sm text-slate-400 mt-1">IT类项目</div>
+  </div>
+  <div class="glass-card stat-card p-4 text-center">
+    <div class="text-3xl font-bold text-orange-400" id="statMerged">--</div>
+    <div class="text-sm text-slate-400 mt-1">跨源合并</div>
+  </div>
+  <div class="glass-card stat-card p-4 text-center">
+    <div class="text-3xl font-bold text-cyan-400" id="statSources">--</div>
+    <div class="text-sm text-slate-400 mt-1">数据来源</div>
+  </div>
+  <div class="glass-card stat-card p-4 text-center">
+    <div class="text-3xl font-bold text-green-400" id="statToday">--</div>
+    <div class="text-sm text-slate-400 mt-1">今日更新</div>
+  </div>
+</section>
+
+<!-- ===== IT项目专区 ===== -->
+<section class="px-6 mb-6 fade-in">
+  <div class="glass-card it-highlight p-5">
+    <div class="flex items-center gap-2 mb-4">
+      <i class="fas fa-laptop-code text-purple-400 text-xl"></i>
+      <h2 class="text-lg font-bold text-purple-300">IT / 数字化项目专区</h2>
+      <span class="text-xs text-slate-400 ml-2">信息化建设 · 数字化转型 · 人工智能 · 网络安全 · 智慧城市</span>
+    </div>
+    <div id="itProjectList" class="space-y-2 max-h-64 overflow-y-auto">
+      <div class="text-slate-500 text-center py-4">加载中...</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 行业分布 & 来源统计 ===== -->
+<section class="px-6 mb-6 grid grid-cols-1 md:grid-cols-2 gap-4 fade-in">
+  <div class="glass-card p-5">
+    <h3 class="text-base font-bold mb-3 flex items-center gap-2">
+      <i class="fas fa-chart-pie text-blue-400"></i>行业分布
+    </h3>
+    <div class="h-48">
+      <canvas id="industryChart"></canvas>
+    </div>
+  </div>
+  <div class="glass-card p-5">
+    <h3 class="text-base font-bold mb-3 flex items-center gap-2">
+      <i class="fas fa-chart-bar text-cyan-400"></i>数据来源统计
+    </h3>
+    <div class="h-48">
+      <canvas id="sourceChart"></canvas>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 项目列表 ===== -->
+<section class="px-6 mb-6 fade-in">
+  <div class="glass-card p-5">
+    <!-- 搜索 & 筛选 -->
+    <div class="flex items-center gap-3 mb-4 flex-wrap">
+      <div class="flex-1 min-w-[200px]">
+        <input type="text" id="searchInput" placeholder="搜索项目名称、行业、来源..." 
+               class="search-input w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-600 text-slate-200 placeholder-slate-500"
+               oninput="filterProjects()">
+      </div>
+      <div class="flex gap-2 flex-wrap">
+        <button onclick="setFilter('all')" class="tab-active px-3 py-1 rounded text-sm font-medium" id="tabAll">全部</button>
+        <button onclick="setFilter('it')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabIT">IT项目</button>
+        <button onclick="setFilter('merged')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabMerged">跨源合并</button>
+        <button onclick="setFilter('ggzy')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabGGZY">交易中心</button>
+        <button onclick="setFilter('fagw')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabFAGW">发改委</button>
+        <button onclick="setFilter('iitb')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabIITB">工信厅</button>
+      </div>
+      <span class="text-xs text-slate-500" id="filterCount">--</span>
+    </div>
+
+    <!-- 项目表格 -->
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="text-slate-400 border-b border-slate-600">
+            <th class="py-2 px-2 text-left w-8">#</th>
+            <th class="py-2 px-2 text-left">项目名称</th>
+            <th class="py-2 px-2 text-left w-24">行业</th>
+            <th class="py-2 px-2 text-left w-20">性质</th>
+            <th class="py-2 px-2 text-left w-28">来源</th>
+            <th class="py-2 px-2 text-left w-24">日期</th>
+            <th class="py-2 px-2 text-left w-20">标签</th>
+          </tr>
+        </thead>
+        <tbody id="projectTableBody">
+          <tr><td colspan="7" class="text-center py-8 text-slate-500">加载中...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- 分页 -->
+    <div class="flex items-center justify-between mt-4" id="paginationBar" style="display:none">
+      <span class="text-xs text-slate-500" id="pageInfo"></span>
+      <div class="flex gap-2">
+        <button onclick="prevPage()" class="px-3 py-1 rounded bg-slate-700 hover:bg-slate-600 text-sm">上一页</button>
+        <button onclick="nextPage()" class="px-3 py-1 rounded bg-slate-700 hover:bg-slate-600 text-sm">下一页</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 合并项目详情 ===== -->
+<section class="px-6 mb-6 fade-in" id="mergedSection" style="display:none">
+  <div class="glass-card p-5">
+    <h3 class="text-base font-bold mb-3 flex items-center gap-2">
+      <i class="fas fa-link text-orange-400"></i>跨源合并项目
+      <span class="text-xs text-slate-400">同一项目在多个政府来源均有记录</span>
+    </h3>
+    <div id="mergedList" class="space-y-3 max-h-96 overflow-y-auto"></div>
+  </div>
+</section>
+
+<!-- ===== 底部 ===== -->
+<footer class="px-6 py-4 text-center text-xs text-slate-600">
+  海南政企项目信息聚合平台 v3.0 | 5源数据采集 · 跨源合并 · IT强化标注 | 数据来源均为政府公开信息
+</footer>
+
+<script>
+// ===== 全局状态 =====
+let allData = [];
+let filteredData = [];
+let currentPage = 1;
+const PAGE_SIZE = 30;
+let currentFilter = 'all';
+let industryChartInstance = null;
+let sourceChartInstance = null;
+
+// ===== 数据加载 =====
+async function loadData() {
+  try {
+    // 静态版：直接读取本地 JSON 文件
+    const resp = await fetch('./data.json');
+    const json = await resp.json();
+    allData = json.data || [];
+    updateStats(json.stats || {});
+    updateStatus('数据已加载（静态版）');
+    renderAll();
+  } catch (e) {
+    console.error('数据加载失败:', e);
+    document.getElementById('projectTableBody').innerHTML = 
+      '<tr><td colspan="7" class="text-center py-8 text-red-400">数据加载失败，请确认 data.json 文件存在</td></tr>';
+  }
+}
+
+async function refreshData() {
+  const btn = document.getElementById('btnRefresh');
+  btn.disabled = true;
+  btn.innerHTML = '<i class="fas fa-spinner loading-spinner"></i>采集中...';
+  updateStatus('正在采集...');
+  
+  try {
+    await fetch('/api/refresh');
+    // 等待采集完成（轮询）
+    for (let i = 0; i < 60; i++) {
+      await new Promise(r => setTimeout(r, 3000));
+      const resp = await fetch('/api/data');
+      const json = await resp.json();
+      if (json.status !== '正在采集...') {
+        allData = json.data || [];
+        updateStats(json.stats || {});
+        updateStatus(json.status);
+        renderAll();
+        break;
+      }
+    }
+  } catch (e) {
+    console.error('刷新失败:', e);
+  }
+  
+  btn.disabled = false;
+  btn.innerHTML = '<i class="fas fa-sync-alt"></i>刷新数据';
+}
+
+async function exportExcel() {
+  try {
+    const resp = await fetch('/api/export_excel');
+    const json = await resp.json();
+    if (json.error) {
+      alert(json.error);
+    } else {
+      alert(`导出成功！\n文件: ${json.path}\n总计: ${json.total} 条\nIT项目: ${json.it_count} 条`);
+    }
+  } catch(e) {
+    alert('导出失败，请确认服务器运行中');
+  }
+}
+
+// ===== UI 更新 =====
+function updateStats(stats) {
+  document.getElementById('statTotal').textContent = stats.total || 0;
+  document.getElementById('statIT').textContent = stats.it_count || 0;
+  document.getElementById('statMerged').textContent = stats.merged_count || 0;
+  document.getElementById('statSources').textContent = Object.keys(stats.source_stats || {}).length;
+  
+  // 今日更新数
+  const today = new Date().toISOString().slice(0,10);
+  const todayCount = allData.filter(d => d.date && d.date.startsWith(today)).length;
+  document.getElementById('statToday').textContent = todayCount;
+  
+  document.getElementById('updateTime').innerHTML = 
+    `<i class="fas fa-clock mr-1"></i>更新: ${stats.update_time || '--'}`;
+}
+
+function updateStatus(status) {
+  const dot = document.getElementById('statusDot');
+  if (status === '数据就绪') {
+    dot.className = 'w-2 h-2 rounded-full bg-green-400 inline-block';
+  } else if (status === '正在采集...') {
+    dot.className = 'pulse-dot w-2 h-2 rounded-full bg-yellow-400 inline-block';
+  } else {
+    dot.className = 'w-2 h-2 rounded-full bg-red-400 inline-block';
+  }
+}
+
+// ===== 渲染 =====
+function renderAll() {
+  filterProjects();
+  renderIndustryChart();
+  renderSourceChart();
+  renderITSection();
+  renderMergedSection();
+}
+
+// --- 项目列表 ---
+function filterProjects() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  let data = allData;
+  
+  // 筛选Tab
+  if (currentFilter === 'it') {
+    data = data.filter(d => d.is_it_project);
+  } else if (currentFilter === 'merged') {
+    data = data.filter(d => d.is_merged);
+  } else if (currentFilter === 'ggzy') {
+    data = data.filter(d => d.source_name === '省公共资源交易中心');
+  } else if (currentFilter === 'fagw') {
+    data = data.filter(d => d.source_name === '省发改委');
+  } else if (currentFilter === 'iitb') {
+    data = data.filter(d => d.source_name === '省工信厅');
+  }
+  
+  // 搜索
+  if (search) {
+    data = data.filter(d => {
+      const text = (d.title + ' ' + d.industry + ' ' + d.source_name + ' ' + (d.it_tags||[]).join(' ')).toLowerCase();
+      return text.includes(search);
+    });
+  }
+  
+  filteredData = data;
+  document.getElementById('filterCount').textContent = `共 ${data.length} 条`;
+  currentPage = 1;
+  renderProjectTable();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  // 更新Tab样式
+  document.querySelectorAll('[id^="tab"]').forEach(el => {
+    el.className = 'tab-inactive px-3 py-1 rounded text-sm font-medium';
+  });
+  const tabId = {
+    'all': 'tabAll', 'it': 'tabIT', 'merged': 'tabMerged',
+    'ggzy': 'tabGGZY', 'fagw': 'tabFAGW', 'iitb': 'tabIITB'
+  }[f];
+  if (tabId) document.getElementById(tabId).className = 'tab-active px-3 py-1 rounded text-sm font-medium';
+  filterProjects();
+}
+
+function renderProjectTable() {
+  const tbody = document.getElementById('projectTableBody');
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pageData = filteredData.slice(start, end);
+  
+  if (pageData.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="text-center py-8 text-slate-500">暂无数据</td></tr>';
+    document.getElementById('paginationBar').style.display = 'none';
+    return;
+  }
+  
+  tbody.innerHTML = pageData.map((d, i) => {
+    const idx = start + i + 1;
+    const isIT = d.is_it_project;
+    const isMerged = d.is_merged;
+    const rowClass = isIT ? 'it-row' : '';
+    
+    const sourceNames = isMerged ? d.merge_sources.join(' · ') : d.source_name;
+    const badges = [
+      ...(d.it_tags || []).map(t => `<span class="it-badge">${t}</span>`),
+      isMerged ? `<span class="merged-badge">跨${d.merge_count}源</span>` : '',
+    ].filter(Boolean).join('');
+    
+    return `<tr class="project-row ${rowClass} border-b border-slate-700/30">
+      <td class="py-2 px-2 text-slate-500">${idx}</td>
+      <td class="py-2 px-2">
+        <a href="${d.source_url}" target="_blank" class="hover:text-blue-400 hover:underline ${isIT ? 'text-purple-300 font-medium' : ''}">
+          ${d.title.length > 55 ? d.title.slice(0,55)+'...' : d.title}
+        </a>
+      </td>
+      <td class="py-2 px-2 ${isIT ? 'text-purple-400' : 'text-slate-400'}">${d.industry || '--'}</td>
+      <td class="py-2 px-2 text-slate-400">${d.project_nature || '--'}</td>
+      <td class="py-2 px-2 text-xs text-slate-400">${sourceNames}</td>
+      <td class="py-2 px-2 text-slate-500 text-xs">${d.date || '--'}</td>
+      <td class="py-2 px-2">${badges}</td>
+    </tr>`;
+  }).join('');
+  
+  // 分页
+  const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+  if (totalPages > 1) {
+    document.getElementById('paginationBar').style.display = 'flex';
+    document.getElementById('pageInfo').textContent = `第 ${currentPage}/${totalPages} 页`;
+  } else {
+    document.getElementById('paginationBar').style.display = 'none';
+  }
+}
+
+function prevPage() {
+  if (currentPage > 1) { currentPage--; renderProjectTable(); }
+}
+function nextPage() {
+  const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+  if (currentPage < totalPages) { currentPage++; renderProjectTable(); }
+}
+
+// --- IT项目专区 ---
+function renderITSection() {
+  const itData = allData.filter(d => d.is_it_project);
+  const container = document.getElementById('itProjectList');
+  
+  if (itData.length === 0) {
+    container.innerHTML = '<div class="text-slate-500 text-center py-4">暂无IT项目数据</div>';
+    return;
+  }
+  
+  container.innerHTML = itData.slice(0, 20).map(d => {
+    const tags = (d.it_tags||[]).map(t => `<span class="it-badge">${t}</span>`).join('');
+    const merged = d.is_merged ? `<span class="merged-badge">跨${d.merge_count}源</span>` : '';
+    return `<div class="flex items-start gap-3 p-2 rounded-lg hover:bg-purple-900/20 transition">
+      <i class="fas fa-microchip text-purple-400 mt-1 text-xs"></i>
+      <div class="flex-1">
+        <a href="${d.source_url}" target="_blank" class="text-sm text-purple-200 hover:text-purple-100 hover:underline">${d.title}</a>
+        <div class="flex items-center gap-2 mt-1">
+          ${tags}${merged}
+          <span class="text-xs text-slate-500">${d.source_name} · ${d.date || '--'}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  
+  if (itData.length > 20) {
+    container.innerHTML += `<div class="text-center text-xs text-slate-500 mt-2">还有 ${itData.length - 20} 条IT项目，请查看项目列表</div>`;
+  }
+}
+
+// --- 合并项目 ---
+function renderMergedSection() {
+  const mergedData = allData.filter(d => d.is_merged);
+  const section = document.getElementById('mergedSection');
+  const container = document.getElementById('mergedList');
+  
+  if (mergedData.length === 0) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = 'block';
+  
+  container.innerHTML = mergedData.map(d => {
+    const sourceLinks = d.merge_urls.map((url, i) => 
+      `<a href="${url}" target="_blank" class="text-xs text-blue-400 hover:underline">${d.merge_sources[i]}</a>`
+    ).join(' · ');
+    const tags = (d.it_tags||[]).map(t => `<span class="it-badge">${t}</span>`).join('');
+    
+    return `<div class="glass-card p-3">
+      <div class="flex items-start gap-2">
+        <i class="fas fa-link text-orange-400 mt-1"></i>
+        <div class="flex-1">
+          <div class="text-sm font-medium">${d.title}</div>
+          <div class="flex items-center gap-2 mt-1 flex-wrap">
+            <span class="merged-badge">跨${d.merge_count}源合并</span>
+            ${tags}
+            <span class="text-xs text-slate-500">行业: ${d.industry}</span>
+          </div>
+          <div class="text-xs text-slate-400 mt-1">数据来源: ${sourceLinks}</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// --- 行业分布图 ---
+function renderIndustryChart() {
+  const stats = {};
+  allData.forEach(d => {
+    const ind = d.industry || '其他';
+    stats[ind] = (stats[ind] || 0) + 1;
+  });
+  const labels = Object.keys(stats);
+  const values = Object.values(stats);
+  
+  // IT项目用紫色
+  const colors = labels.map(l => {
+    if (l === '信息化/IT') return '#7C4DFF';
+    return ['#185FA5','#4CAF50','#FF9800','#E91E63','#00BCD4','#8BC34A','#FF5722','#3F51B5','#CDDC39','#795548','#607D8B','#9E9E9E'][labels.indexOf(l) % 12];
+  });
+  
+  const ctx = document.getElementById('industryChart').getContext('2d');
+  if (industryChartInstance) industryChartInstance.destroy();
+  industryChartInstance = new Chart(ctx, {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: values, backgroundColor: colors }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right', labels: { color: '#94A3B8', font: { size: 11 }, padding: 8 } },
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} 条` } }
+      }
+    }
+  });
+}
+
+// --- 来源统计图 ---
+function renderSourceChart() {
+  const stats = {};
+  allData.forEach(d => {
+    const sources = d.is_merged ? d.merge_sources : [d.source_name];
+    sources.forEach(s => { stats[s] = (stats[s] || 0) + 1; });
+  });
+  const labels = Object.keys(stats);
+  const values = Object.values(stats);
+  const colors = ['#185FA5','#4CAF50','#FF9800','#E91E63','#00BCD4'];
+  
+  const ctx = document.getElementById('sourceChart').getContext('2d');
+  if (sourceChartInstance) sourceChartInstance.destroy();
+  sourceChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets: [{ label: '项目数', data: values, backgroundColor: colors }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `${ctx.raw} 条` } } },
+      scales: {
+        x: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(148,163,184,0.1)' } },
+        y: { ticks: { color: '#E2E8F0', font: { size: 12 } }, grid: { color: 'rgba(148,163,184,0.1)' } }
+      }
+    }
+  });
+}
+
+// ===== 初始化 =====
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>
