@@ -269,8 +269,8 @@ let sourceChartInstance = null;
 // ===== 数据加载 =====
 async function loadData() {
   try {
-    // 静态版：直接读取本地 JSON 文件
-    const resp = await fetch('./data.json');
+    // 静态版：直接读取本地 JSON 文件（加时间戳防止浏览器缓存）
+    const resp = await fetch('./data.json?t=' + Date.now());
     const json = await resp.json();
     allData = json.data || [];
     updateStats(json.stats || {});
