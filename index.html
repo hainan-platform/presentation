@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>海南政企项目信息聚合平台</title>
+<title>政企供需匹配平台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -118,8 +118,8 @@
       <i class="fas fa-building text-white text-lg"></i>
     </div>
     <div>
-      <h1 class="text-xl font-bold tracking-wide">海南政企项目信息聚合平台</h1>
-      <p class="text-sm text-slate-400">5源采集 · 跨源合并 · IT强化标注</p>
+      <h1 class="text-xl font-bold tracking-wide">政企供需匹配平台</h1>
+      <p class="text-sm text-slate-400">多省采集 · 智能匹配 · 商机推送</p>
     </div>
   </div>
   <div class="flex items-center gap-4">
@@ -143,7 +143,7 @@
   </div>
   <div class="glass-card stat-card p-4 text-center">
     <div class="text-3xl font-bold text-orange-400" id="statMerged">--</div>
-    <div class="text-sm text-slate-400 mt-1">跨源合并</div>
+    <div class="text-sm text-slate-400 mt-1">OPC企业</div>
   </div>
   <div class="glass-card stat-card p-4 text-center">
     <div class="text-3xl font-bold text-cyan-400" id="statSources">--</div>
@@ -202,10 +202,10 @@
       <div class="flex gap-2 flex-wrap">
         <button onclick="setFilter('all')" class="tab-active px-3 py-1 rounded text-sm font-medium" id="tabAll">全部</button>
         <button onclick="setFilter('it')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabIT">IT项目</button>
-        <button onclick="setFilter('merged')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabMerged">跨源合并</button>
+        <button onclick="setFilter('hainan')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabHainan">海南省</button>
+        <button onclick="setFilter('zhejiang')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabZhejiang">浙江省</button>
         <button onclick="setFilter('ggzy')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabGGZY">交易中心</button>
         <button onclick="setFilter('fagw')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabFAGW">发改委</button>
-        <button onclick="setFilter('iitb')" class="tab-inactive px-3 py-1 rounded text-sm font-medium" id="tabIITB">工信厅</button>
       </div>
       <span class="text-xs text-slate-500" id="filterCount">--</span>
     </div>
@@ -253,7 +253,7 @@
 
 <!-- ===== 底部 ===== -->
 <footer class="px-6 py-4 text-center text-xs text-slate-600">
-  海南政企项目信息聚合平台 v3.0 | 5源数据采集 · 跨源合并 · IT强化标注 | 数据来源均为政府公开信息
+  海南政企供需匹配平台 v4.0 | 多省数据采集 · 智能匹配 · 商机推送 | 数据来源均为政府公开信息
 </footer>
 
 <script>
@@ -330,7 +330,7 @@ async function exportExcel() {
 function updateStats(stats) {
   document.getElementById('statTotal').textContent = stats.total || 0;
   document.getElementById('statIT').textContent = stats.it_count || 0;
-  document.getElementById('statMerged').textContent = stats.merged_count || 0;
+  document.getElementById('statMerged').textContent = stats.opc_count || 0;
   document.getElementById('statSources').textContent = Object.keys(stats.source_stats || {}).length;
   
   // 今日更新数
@@ -344,7 +344,7 @@ function updateStats(stats) {
 
 function updateStatus(status) {
   const dot = document.getElementById('statusDot');
-  if (status === '数据就绪') {
+  if (status.includes('已加载') || status === '数据就绪') {
     dot.className = 'w-2 h-2 rounded-full bg-green-400 inline-block';
   } else if (status === '正在采集...') {
     dot.className = 'pulse-dot w-2 h-2 rounded-full bg-yellow-400 inline-block';
@@ -370,14 +370,14 @@ function filterProjects() {
   // 筛选Tab
   if (currentFilter === 'it') {
     data = data.filter(d => d.is_it_project);
-  } else if (currentFilter === 'merged') {
-    data = data.filter(d => d.is_merged);
+  } else if (currentFilter === 'hainan') {
+    data = data.filter(d => d.province === '海南省' || d.source_name === '省公共资源交易中心' || d.source_name === '省财政厅' || d.source_name === '省政府网站' || d.source_name === '省发改委' || d.source_name === '省工信厅');
+  } else if (currentFilter === 'zhejiang') {
+    data = data.filter(d => d.province === '浙江省' || d.source_name === '浙江省公共资源交易服务平台');
   } else if (currentFilter === 'ggzy') {
-    data = data.filter(d => d.source_name === '省公共资源交易中心');
+    data = data.filter(d => d.source_name === '省公共资源交易中心' || d.source_name === '浙江省公共资源交易服务平台');
   } else if (currentFilter === 'fagw') {
     data = data.filter(d => d.source_name === '省发改委');
-  } else if (currentFilter === 'iitb') {
-    data = data.filter(d => d.source_name === '省工信厅');
   }
   
   // 搜索
@@ -401,8 +401,8 @@ function setFilter(f) {
     el.className = 'tab-inactive px-3 py-1 rounded text-sm font-medium';
   });
   const tabId = {
-    'all': 'tabAll', 'it': 'tabIT', 'merged': 'tabMerged',
-    'ggzy': 'tabGGZY', 'fagw': 'tabFAGW', 'iitb': 'tabIITB'
+    'all': 'tabAll', 'it': 'tabIT', 'hainan': 'tabHainan',
+    'zhejiang': 'tabZhejiang', 'ggzy': 'tabGGZY', 'fagw': 'tabFAGW'
   }[f];
   if (tabId) document.getElementById(tabId).className = 'tab-active px-3 py-1 rounded text-sm font-medium';
   filterProjects();
