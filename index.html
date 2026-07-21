@@ -296,19 +296,18 @@ async function loadData() {
   try {
     var resp = await fetch('platform_data.json');
     DATA = await resp.json();
-    document.getElementById('updateTime').innerHTML = '<i class="fas fa-clock mr-1"></i>' + DATA.meta.export_time;
-    renderDashboard();
-    renderProjects();
-    renderEnterprises();
-    renderMatches();
-    renderCollector();
-    renderBudgets();
-    renderPredictions();
-    renderAI();
+    document.getElementById('updateTime').innerHTML = '<i class="fas fa-clock mr-1"></i>' + (DATA.meta||{}).export_time || '未知';
   } catch(e) {
     document.body.innerHTML = '<div style="padding:40px;text-align:center;color:#94A3B8"><h2>数据加载失败</h2><p>请确保 platform_data.json 文件存在</p><p style="color:#64748B">'+e.message+'</p></div>';
+    return;
   }
+  var fns = [renderDashboard, renderProjects, renderEnterprises, renderMatches, renderCollector, renderBudgets, renderPredictions, renderAI];
+  fns.forEach(function(fn) {
+    try { fn(); } catch(e) { console.error(fn.name + ' error:', e); }
+  });
 }
+
+function asArray(v) { return Array.isArray(v) ? v : []; }
 
 // ===== View Switching =====
 function switchView(view) {
@@ -340,27 +339,34 @@ function renderDashboard() {
   var db = DATA.dashboard || {};
   // Match distribution
   var md = db['match-distribution'] || {};
-  if (md.buckets) drawBarChart('chartMatchDist', md.buckets.map(function(b){return b.label||b.range||''}), md.buckets.map(function(b){return b.count||0}), '#7C4DFF');
+  var mdBuckets = asArray(md.buckets);
+  if (mdBuckets.length) drawBarChart('chartMatchDist', mdBuckets.map(function(b){return b.label||b.range||''}), mdBuckets.map(function(b){return b.count||0}), '#7C4DFF');
   // Capability levels
   var cl = db['capability-levels'] || {};
-  if (cl.levels) drawBarChart('chartCapLevels', cl.levels.map(function(l){return l.level||''}), cl.levels.map(function(l){return l.count||0}), '#FF9800');
+  var clLevels = asArray(cl.levels);
+  if (clLevels.length) drawBarChart('chartCapLevels', clLevels.map(function(l){return l.level||''}), clLevels.map(function(l){return l.count||0}), '#FF9800');
   // Industry distribution
   var ind = db['industry-distribution'] || {};
-  if (ind.industries) drawPieChart('chartIndustry', ind.industries.slice(0,8).map(function(i){return i.industry||i.name||''}), ind.industries.slice(0,8).map(function(i){return i.count||0}));
+  var indList = asArray(ind.industries).slice(0,8);
+  if (indList.length) drawPieChart('chartIndustry', indList.map(function(i){return i.industry||i.name||''}), indList.map(function(i){return i.project_count||i.count||0}));
   // Region distribution
   var reg = db['region-distribution'] || {};
-  if (reg.regions) drawBarChart('chartRegion', reg.regions.map(function(r){return r.region||''}), reg.regions.map(function(r){return r.count||0}), '#185FA5');
+  var regList = asArray(reg.regions);
+  if (regList.length) drawBarChart('chartRegion', regList.map(function(r){return r.region||''}), regList.map(function(r){return r.project_count||r.count||0}), '#185FA5');
   // Push stats
   var ps = db['push-stats'] || {};
-  if (ps.status_distribution) drawPieChart('chartPush', ps.status_distribution.map(function(s){return s.status||''}), ps.status_distribution.map(function(s){return s.count||0}));
-  // Match trend
+  var psDist = asArray(ps.status_distribution);
+  if (psDist.length) drawPieChart('chartPush', psDist.map(function(s){return s.status||''}), psDist.map(function(s){return s.count||0}));
+  // Match trend (trend is array of {date, count, avg_score}, days is int)
   var mt = db['match-trend'] || {};
-  if (mt.days && mt.trend) drawLineChart('chartTrend', mt.days, mt.trend);
+  var mtTrend = asArray(mt.trend);
+  if (mtTrend.length) drawLineChart('chartTrend', mtTrend.map(function(t){return t.date||''}), mtTrend.map(function(t){return t.count||0}));
   // Top matches
-  var tm = (db['top-matches'] || {}).matches || [];
+  var tm = asArray((db['top-matches'] || {}).matches);
   var tmHtml = tm.slice(0,10).map(function(m,i) {
-    var score = ((m.match_score||0)*100).toFixed(1);
-    var level = m.match_level || '';
+    var rawScore = m.match_score||0;
+    var score = rawScore > 1 ? rawScore.toFixed(1) : (rawScore*100).toFixed(1);
+    var level = m.match_level || (rawScore > 0.75 || rawScore > 75 ? 'high' : rawScore > 0.5 || rawScore > 50 ? 'medium' : 'low');
     var lvlClass = level==='high'?'level-A':(level==='medium'?'level-B':'level-C');
     return '<tr class="project-row"><td>'+(i+1)+'</td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">'+(m.enterprise_name||'--')+'</td><td style="max-width:250px;overflow:hidden;text-overflow:ellipsis">'+(m.project_name||'--')+'</td><td><span style="color:#4CAF50;font-weight:600">'+score+'%</span></td><td><span class="level-badge '+lvlClass+'">'+level+'</span></td></tr>';
   }).join('');
@@ -379,9 +385,10 @@ function setProjFilter(f) {
 
 function renderProjects() {
   if (!DATA || !DATA.projects) return;
+  var allProjects = asArray(DATA.projects);
   var search = (document.getElementById('projSearch')||{}).value || '';
   search = search.toLowerCase();
-  var filtered = DATA.projects.filter(function(p) {
+  var filtered = allProjects.filter(function(p) {
     if (projFilter === 'hainan' && (p.source_name||'').indexOf('海南') < 0) return false;
     if (projFilter === 'zhejiang' && (p.source_name||'').indexOf('浙江') < 0) return false;
     if (search) {
@@ -458,7 +465,7 @@ function showProject(id) {
 // ===== Enterprises =====
 function renderEnterprises() {
   if (!DATA || !DATA.enterprises) return;
-  var ents = DATA.enterprises;
+  var ents = asArray(DATA.enterprises);
   var regions = {}; var industries = {};
   ents.forEach(function(e) {
     regions[e.region||'未知'] = 1;
@@ -490,7 +497,7 @@ function renderEnterprises() {
 // ===== Matches =====
 function renderMatches() {
   if (!DATA || !DATA.matches) return;
-  var ms = DATA.matches;
+  var ms = asArray(DATA.matches);
   var ov = DATA.overview || {};
   document.getElementById('matchTotal').textContent = ms.length;
   document.getElementById('matchAvg').textContent = (((ov.matches||{}).avg_score||0)*100).toFixed(1)+'%';
@@ -568,7 +575,7 @@ function renderCollector() {
   document.getElementById('colConfigured').textContent = cs.configured_sources || 0;
   document.getElementById('colInterval').textContent = '6';
 
-  var srcs = DATA.sources || [];
+  var srcs = asArray(DATA.sources);
   var html = srcs.map(function(s) {
     var config = s.scrape_config || {};
     var cats = config.categories || [];
@@ -594,7 +601,7 @@ function renderCollector() {
 // ===== Budgets =====
 function renderBudgets() {
   if (!DATA || !DATA.budgets) return;
-  var buds = DATA.budgets;
+  var buds = asArray(DATA.budgets);
   var summary = DATA.budget_summary || {};
   document.getElementById('budTotal').textContent = buds.length;
   var totalAmt = buds.reduce(function(s,b){return s+(b.total_budget||0)},0);
@@ -633,7 +640,7 @@ function renderBudgets() {
 // ===== Predictions =====
 function renderPredictions() {
   if (!DATA || !DATA.predictions) return;
-  var preds = DATA.predictions;
+  var preds = asArray(DATA.predictions);
   var typeLabels = {'budget_trend':'预算趋势预测','project_demand':'项目需求预测','industry_outlook':'行业前景预测'};
   var html = preds.map(function(p, i) {
     var result = p.prediction_result;
@@ -673,7 +680,7 @@ function renderPredictions() {
 // ===== AI Assistants =====
 function renderAI() {
   if (!DATA || !DATA.ai_assistants) return;
-  var ais = DATA.ai_assistants;
+  var ais = asArray(DATA.ai_assistants);
   var typeIcons = {'data_collector':'fa-satellite-dish','capability_evaluator':'fa-clipboard-check','matchmaker':'fa-handshake','tender_writer':'fa-file-alt','trend_predictor':'fa-chart-line','report_generator':'fa-file-export'};
   var typeColors = {'data_collector':'#185FA5','capability_evaluator':'#4CAF50','matchmaker':'#7C4DFF','tender_writer':'#FF9800','trend_predictor':'#E91E63','report_generator':'#00BCD4'};
   var html = ais.map(function(a) {
