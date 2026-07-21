@@ -1,3084 +1,2024 @@
 {
   "enterprises": [
     {
-      "id": 22,
-      "company_name": "海南省兴意科技发展有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "科技",
-        "技术服务"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "谭月萌",
-      "region": "琼中县",
-      "business_scope": "海南省兴意科技发展有限公司是一家位于琼中县的科技服务企业，成立于2024年，统一社会信用代码：91460000MAE374KT9E，经营者：谭月萌。",
-      "qualification_level": "B",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.332170",
+      "business_scope": "舟山定海区海港渔需物资经营部是一家位于舟山市的渔需物资企业，成立于2023年，统一社会信用代码：92330902MA2xxxxb6，经营者：王某。",
       "certifications": [],
-      "overall_score": 58.7,
-      "capability_level": "B",
-      "ai_description": "自动评估 - 科技服务",
-      "scores": {
-        "qualification": 60.0,
-        "technical": 80.0,
-        "history": 46.0,
-        "financial": 48.0,
-        "team": 35.0,
-        "certification": 53.0,
-        "region": 78.0
-      }
-    },
-    {
-      "id": 27,
-      "company_name": "海南土沉香科技有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "农业",
-        "科技"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "魏锦贤",
-      "region": "琼中县",
-      "business_scope": "海南土沉香科技有限公司是一家位于琼中县的农业科技企业，成立于2025年，统一社会信用代码：91460000MAE7WCQ1XM，经营者：魏锦贤。",
-      "qualification_level": "B",
-      "certifications": [],
-      "overall_score": 57.9,
-      "capability_level": "B",
-      "ai_description": "自动评估 - 农业科技",
-      "scores": {
-        "qualification": 50.0,
-        "technical": 81.0,
-        "history": 48.0,
-        "financial": 44.0,
-        "team": 45.0,
-        "certification": 52.0,
-        "region": 82.0
-      }
-    },
-    {
-      "id": 24,
-      "company_name": "海南铖旭贸易有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "商贸",
-        "零售"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "许丽君",
-      "region": "琼中县",
-      "business_scope": "海南铖旭贸易有限公司是一家位于琼中县的商贸企业，成立于2024年，统一社会信用代码：91460000MAE3DAL82M，经营者：许丽君。",
-      "qualification_level": "B",
-      "certifications": [],
-      "overall_score": 56.5,
-      "capability_level": "B",
-      "ai_description": "自动评估 - 商贸",
-      "scores": {
-        "qualification": 58.0,
-        "technical": 67.0,
-        "history": 52.0,
-        "financial": 47.0,
-        "team": 42.0,
-        "certification": 40.0,
-        "region": 84.0
-      }
-    },
-    {
-      "id": 21,
-      "company_name": "海南华弘再生资源销售有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "环保",
-        "再生资源"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "黎玉雷",
-      "region": "琼中县",
-      "business_scope": "海南华弘再生资源销售有限公司是一家位于琼中县的环保回收企业，成立于2024年，统一社会信用代码：91460000MAE1XADG43，经营者：黎玉雷。",
-      "qualification_level": "B",
-      "certifications": [],
-      "overall_score": 55.1,
-      "capability_level": "B",
-      "ai_description": "自动评估 - 环保回收",
-      "scores": {
-        "qualification": 55.0,
-        "technical": 68.0,
-        "history": 50.0,
-        "financial": 50.0,
-        "team": 38.0,
-        "certification": 42.0,
-        "region": 75.0
-      }
-    },
-    {
-      "id": 28,
-      "company_name": "海南腾起农业有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "农业",
-        "种植"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "代光宇",
-      "region": "琼中县",
-      "business_scope": "海南腾起农业有限公司是一家位于琼中县的农业企业，成立于2025年，统一社会信用代码：91460000MAE9LM4R1E，经营者：代光宇。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 54.2,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 农业",
-      "scores": {
-        "qualification": 52.0,
-        "technical": 69.0,
-        "history": 48.0,
-        "financial": 48.0,
-        "team": 38.0,
-        "certification": 43.0,
-        "region": 75.0
-      }
-    },
-    {
-      "id": 25,
-      "company_name": "海南盘春贸易有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "商贸",
-        "零售"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "李青",
-      "region": "琼中县",
-      "business_scope": "海南盘春贸易有限公司是一家位于琼中县的商贸企业，成立于2025年，统一社会信用代码：91460000MAEF7XQ0XH，经营者：李青。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 53.9,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 商贸",
-      "scores": {
-        "qualification": 55.0,
-        "technical": 70.0,
-        "history": 46.0,
-        "financial": 40.0,
-        "team": 42.0,
-        "certification": 42.0,
-        "region": 76.0
-      }
-    },
-    {
-      "id": 80,
-      "company_name": "永康市东城五金加工厂",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "五金",
-        "制造"
-      ],
-      "service_regions": [
-        "浙江省",
-        "金华市",
-        "永康市"
-      ],
+      "company_name": "舟山定海区海港渔需物资经营部",
+      "contact_email": "contact_4817@example.com",
       "contact_person": "王某",
-      "region": "永康市",
-      "business_scope": "永康市东城五金加工厂是一家位于永康市的五金制造企业，成立于2023年，统一社会信用代码：92330784MA2xxxxa7，经营者：王某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 53.8,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 五金制造",
-      "scores": {
-        "qualification": 60.0,
-        "technical": 70.0,
-        "history": 42.0,
-        "financial": 45.0,
-        "team": 32.0,
-        "certification": 35.0,
-        "region": 80.0
-      }
-    },
-    {
-      "id": 26,
-      "company_name": "海南晟皇贸易有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
+      "contact_phone": "18998938139",
+      "created_at": "2026-07-20T08:58:02.332469",
+      "credit_code": "92330902MA2xxxxb6",
+      "entity_type": "individual",
+      "id": 88,
+      "id_card_no": null,
       "industry_tags": [
-        "商贸",
-        "零售"
+        "渔业",
+        "物资"
       ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "郭世宇",
-      "region": "琼中县",
-      "business_scope": "海南晟皇贸易有限公司是一家位于琼中县的商贸企业，成立于2025年，统一社会信用代码：91460000MAE7QU9T7K，经营者：郭世宇。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 53.7,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 商贸",
-      "scores": {
-        "qualification": 54.0,
-        "technical": 68.0,
-        "history": 48.0,
-        "financial": 45.0,
-        "team": 40.0,
-        "certification": 35.0,
-        "region": 78.0
-      }
-    },
-    {
-      "id": 83,
-      "company_name": "台州椒江区宏达机械加工厂",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "机械",
-        "加工"
-      ],
+      "qualification_level": "D",
+      "region": "舟山市",
       "service_regions": [
         "浙江省",
-        "台州市"
+        "舟山市"
       ],
-      "contact_person": "刘某",
-      "region": "台州市",
-      "business_scope": "台州椒江区宏达机械加工厂是一家位于台州市的机械加工企业，成立于2023年，统一社会信用代码：92331002MA2xxxxb1，经营者：刘某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 53.4,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 机械加工",
-      "scores": {
-        "qualification": 66.0,
-        "technical": 74.0,
-        "history": 46.0,
-        "financial": 35.0,
-        "team": 26.0,
-        "certification": 33.0,
-        "region": 73.0
-      }
+      "status": "approved",
+      "user_id": 69
     },
     {
-      "id": 37,
-      "company_name": "保亭保城绿源农业合作社",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "农业",
-        "种植"
-      ],
-      "service_regions": [
-        "海南省",
-        "保亭县"
-      ],
-      "contact_person": "王某",
-      "region": "保亭县",
-      "business_scope": "保亭保城绿源农业合作社是一家位于保亭县的农业企业，成立于2023年，统一社会信用代码：93469000MA5xxxxx9，经营者：王某。",
-      "qualification_level": "C",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.274747",
+      "business_scope": "龙泉市青瓷工作室是一家位于龙泉市的青瓷工艺企业，成立于2022年，统一社会信用代码：92331181MA2xxxxb5，经营者：季某。",
       "certifications": [],
-      "overall_score": 52.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 农业",
-      "scores": {
-        "qualification": 54.0,
-        "technical": 65.0,
-        "history": 45.0,
-        "financial": 42.0,
-        "team": 42.0,
-        "certification": 37.0,
-        "region": 77.0
-      }
-    },
-    {
-      "id": 67,
-      "company_name": "杭州临平区诚达装饰工程部",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "装饰",
-        "建筑工程"
-      ],
-      "service_regions": [
-        "浙江省",
-        "杭州市"
-      ],
-      "contact_person": "陈某",
-      "region": "杭州市",
-      "business_scope": "杭州临平区诚达装饰工程部是一家位于杭州市的装饰工程企业，成立于2022年，统一社会信用代码：92330113MA2xxxxx3，经营者：陈某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 52.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 装饰工程",
-      "scores": {
-        "qualification": 60.0,
-        "technical": 73.0,
-        "history": 40.0,
-        "financial": 42.0,
-        "team": 26.0,
-        "certification": 33.0,
-        "region": 77.0
-      }
-    },
-    {
-      "id": 36,
-      "company_name": "陵水椰林海蓝装饰工程部",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "装饰",
-        "建筑工程"
-      ],
-      "service_regions": [
-        "海南省",
-        "陵水县"
-      ],
-      "contact_person": "黄某",
-      "region": "陵水县",
-      "business_scope": "陵水椰林海蓝装饰工程部是一家位于陵水县的装饰工程企业，成立于2022年，统一社会信用代码：92469001MA5xxxxx8，经营者：黄某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 51.9,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 装饰工程",
-      "scores": {
-        "qualification": 61.0,
-        "technical": 66.0,
-        "history": 43.0,
-        "financial": 35.0,
-        "team": 32.0,
-        "certification": 36.0,
-        "region": 80.0
-      }
-    },
-    {
-      "id": 23,
-      "company_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "entity_type": "micro_company",
-      "entity_type_label": "微型企业",
-      "industry_tags": [
-        "汽车",
-        "运输服务"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼中县"
-      ],
-      "contact_person": "王容进",
-      "region": "琼中县",
-      "business_scope": "琼中黎族苗族自治县荣华汽车租赁有限公司是一家位于琼中县的汽车服务企业，成立于2024年，统一社会信用代码：91460000MAE2U7G331，经营者：王容进。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 50.8,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 汽车服务",
-      "scores": {
-        "qualification": 50.0,
-        "technical": 61.0,
-        "history": 47.0,
-        "financial": 45.0,
-        "team": 37.0,
-        "certification": 35.0,
-        "region": 76.0
-      }
-    },
-    {
-      "id": 84,
-      "company_name": "温岭市太平街道海产品加工坊",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "食品",
-        "加工"
-      ],
-      "service_regions": [
-        "浙江省",
-        "台州市",
-        "温岭市"
-      ],
-      "contact_person": "陈某",
-      "region": "温岭市",
-      "business_scope": "温岭市太平街道海产品加工坊是一家位于温岭市的食品加工企业，成立于2022年，统一社会信用代码：92331081MA2xxxxb2，经营者：陈某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 50.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 食品加工",
-      "scores": {
-        "qualification": 54.0,
-        "technical": 60.0,
-        "history": 50.0,
-        "financial": 37.0,
-        "team": 35.0,
-        "certification": 32.0,
-        "region": 80.0
-      }
-    },
-    {
-      "id": 44,
-      "company_name": "洋浦经济开发区恒通物流服务部",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "物流",
-        "运输"
-      ],
-      "service_regions": [
-        "海南省",
-        "洋浦经济开发区"
-      ],
-      "contact_person": "陈某",
-      "region": "洋浦",
-      "business_scope": "洋浦经济开发区恒通物流服务部是一家位于洋浦的物流运输企业，成立于2022年，统一社会信用代码：92469005MA5xxxxa7，经营者：陈某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 50.2,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 物流运输",
-      "scores": {
-        "qualification": 55.0,
-        "technical": 61.0,
-        "history": 41.0,
-        "financial": 43.0,
-        "team": 31.0,
-        "certification": 33.0,
-        "region": 80.0
-      }
-    },
-    {
-      "id": 55,
-      "company_name": "江山市古道茶场",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "茶叶",
-        "农业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "王建国",
-      "region": "江山市",
-      "business_scope": "江山市古道茶场是一家位于江山市的茶叶种植企业，成立于2018年，统一社会信用代码：92330881MA29T3CA32，经营者：王建国。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 50.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 茶叶种植",
-      "scores": {
-        "qualification": 52.0,
-        "technical": 65.0,
-        "history": 49.0,
-        "financial": 43.0,
-        "team": 25.0,
-        "certification": 30.0,
-        "region": 73.0
-      }
-    },
-    {
-      "id": 47,
-      "company_name": "衢州市衢江区恒春石材工艺厂",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "石材",
-        "加工"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "徐海清",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区恒春石材工艺厂是一家位于衢州市的石材加工企业，成立于2016年，统一社会信用代码：92330803MA2FRH3L9R，经营者：徐海清。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 49.9,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 石材加工",
-      "scores": {
-        "qualification": 52.0,
-        "technical": 62.0,
-        "history": 40.0,
-        "financial": 43.0,
-        "team": 35.0,
-        "certification": 37.0,
-        "region": 74.0
-      }
-    },
-    {
-      "id": 45,
-      "company_name": "东方八所镇海蓝水产养殖场",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "水产",
-        "养殖"
-      ],
-      "service_regions": [
-        "海南省",
-        "东方市"
-      ],
-      "contact_person": "张某",
-      "region": "东方市",
-      "business_scope": "东方八所镇海蓝水产养殖场是一家位于东方市的水产养殖企业，成立于2023年，统一社会信用代码：92460800MA5xxxxa8，经营者：张某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 49.6,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 水产养殖",
-      "scores": {
-        "qualification": 51.0,
-        "technical": 65.0,
-        "history": 45.0,
-        "financial": 44.0,
-        "team": 25.0,
-        "certification": 34.0,
-        "region": 72.0
-      }
-    },
-    {
-      "id": 85,
-      "company_name": "湖州吴兴区太湖源生态农业园",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "生态",
-        "农业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "湖州市"
-      ],
-      "contact_person": "周某",
-      "region": "湖州市",
-      "business_scope": "湖州吴兴区太湖源生态农业园是一家位于湖州市的生态农业企业，成立于2023年，统一社会信用代码：92330502MA2xxxxb3，经营者：周某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 49.6,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 生态农业",
-      "scores": {
-        "qualification": 53.0,
-        "technical": 59.0,
-        "history": 43.0,
-        "financial": 45.0,
-        "team": 28.0,
-        "certification": 39.0,
-        "region": 73.0
-      }
-    },
-    {
-      "id": 72,
-      "company_name": "宁波北仑区港通物流服务部",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "物流",
-        "运输"
-      ],
-      "service_regions": [
-        "浙江省",
-        "宁波市"
-      ],
-      "contact_person": "赵某",
-      "region": "宁波市",
-      "business_scope": "宁波北仑区港通物流服务部是一家位于宁波市的物流运输企业，成立于2022年，统一社会信用代码：92330206MA2xxxxx8，经营者：赵某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 49.4,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 物流运输",
-      "scores": {
-        "qualification": 49.0,
-        "technical": 64.0,
-        "history": 45.0,
-        "financial": 36.0,
-        "team": 27.0,
-        "certification": 40.0,
-        "region": 79.0
-      }
-    },
-    {
-      "id": 56,
-      "company_name": "江山市水润茗山家庭农场",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "农业",
-        "种植"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "曾盛夷",
-      "region": "江山市",
-      "business_scope": "江山市水润茗山家庭农场是一家位于江山市的农业企业，成立于2019年，统一社会信用代码：92330881MA2DGNGB43，经营者：曾盛夷。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 48.8,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 农业",
-      "scores": {
-        "qualification": 52.0,
-        "technical": 56.0,
-        "history": 44.0,
-        "financial": 41.0,
-        "team": 29.0,
-        "certification": 35.0,
-        "region": 80.0
-      }
-    },
-    {
-      "id": 52,
-      "company_name": "衢州市衢江区贝沃工艺品厂",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "工艺品",
-        "制造"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "王治明",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区贝沃工艺品厂是一家位于衢州市的工艺品制造企业，成立于2018年，统一社会信用代码：92330803MA29URT27D，经营者：王治明。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 48.3,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 工艺品制造",
-      "scores": {
-        "qualification": 53.0,
-        "technical": 56.0,
-        "history": 50.0,
-        "financial": 36.0,
-        "team": 26.0,
-        "certification": 37.0,
-        "region": 73.0
-      }
-    },
-    {
-      "id": 69,
-      "company_name": "杭州富阳区绿农果蔬种植场",
-      "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
-      "industry_tags": [
-        "农业",
-        "种植"
-      ],
-      "service_regions": [
-        "浙江省",
-        "杭州市"
-      ],
-      "contact_person": "刘某",
-      "region": "杭州市",
-      "business_scope": "杭州富阳区绿农果蔬种植场是一家位于杭州市的农业种植企业，成立于2022年，统一社会信用代码：92330111MA2xxxxx5，经营者：刘某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 48.3,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 农业种植",
-      "scores": {
-        "qualification": 54.0,
-        "technical": 58.0,
-        "history": 47.0,
-        "financial": 39.0,
-        "team": 26.0,
-        "certification": 30.0,
-        "region": 74.0
-      }
-    },
-    {
-      "id": 87,
       "company_name": "龙泉市青瓷工作室",
+      "contact_email": "contact_8667@example.com",
+      "contact_person": "季某",
+      "contact_phone": "18872794621",
+      "created_at": "2026-07-20T08:58:02.275046",
+      "credit_code": "92331181MA2xxxxb5",
       "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
+      "id": 87,
+      "id_card_no": null,
       "industry_tags": [
         "青瓷",
         "手工艺"
       ],
+      "qualification_level": "C",
+      "region": "龙泉市",
       "service_regions": [
         "浙江省",
         "丽水市",
         "龙泉市"
       ],
-      "contact_person": "季某",
-      "region": "龙泉市",
-      "business_scope": "龙泉市青瓷工作室是一家位于龙泉市的青瓷工艺企业，成立于2022年，统一社会信用代码：92331181MA2xxxxb5，经营者：季某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 48.3,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 青瓷工艺",
-      "scores": {
-        "qualification": 49.0,
-        "technical": 59.0,
-        "history": 44.0,
-        "financial": 42.0,
-        "team": 26.0,
-        "certification": 40.0,
-        "region": 72.0
-      }
+      "status": "approved",
+      "user_id": 68
     },
     {
-      "id": 82,
-      "company_name": "诸暨市陶朱街道珍珠加工坊",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.216826",
+      "business_scope": "丽水莲都区瓯江文创工作室是一家位于丽水市的文创设计企业，成立于2023年，统一社会信用代码：92331102MA2xxxxb4，经营者：吴某。",
+      "certifications": [],
+      "company_name": "丽水莲都区瓯江文创工作室",
+      "contact_email": "contact_1056@example.com",
+      "contact_person": "吴某",
+      "contact_phone": "19866400740",
+      "created_at": "2026-07-20T08:58:02.217118",
+      "credit_code": "92331102MA2xxxxb4",
+      "entity_type": "individual",
+      "id": 86,
+      "id_card_no": null,
+      "industry_tags": [
+        "文创",
+        "设计"
+      ],
+      "qualification_level": "C",
+      "region": "丽水市",
+      "service_regions": [
+        "浙江省",
+        "丽水市"
+      ],
+      "status": "approved",
+      "user_id": 67
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.159737",
+      "business_scope": "湖州吴兴区太湖源生态农业园是一家位于湖州市的生态农业企业，成立于2023年，统一社会信用代码：92330502MA2xxxxb3，经营者：周某。",
+      "certifications": [],
+      "company_name": "湖州吴兴区太湖源生态农业园",
+      "contact_email": "contact_3394@example.com",
+      "contact_person": "周某",
+      "contact_phone": "19375130647",
+      "created_at": "2026-07-20T08:58:02.160026",
+      "credit_code": "92330502MA2xxxxb3",
       "entity_type": "sole_proprietor",
-      "entity_type_label": "个人独资",
+      "id": 85,
+      "id_card_no": null,
+      "industry_tags": [
+        "生态",
+        "农业"
+      ],
+      "qualification_level": "C",
+      "region": "湖州市",
+      "service_regions": [
+        "浙江省",
+        "湖州市"
+      ],
+      "status": "approved",
+      "user_id": 66
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.101270",
+      "business_scope": "温岭市太平街道海产品加工坊是一家位于温岭市的食品加工企业，成立于2022年，统一社会信用代码：92331081MA2xxxxb2，经营者：陈某。",
+      "certifications": [],
+      "company_name": "温岭市太平街道海产品加工坊",
+      "contact_email": "contact_3071@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "19714167306",
+      "created_at": "2026-07-20T08:58:02.101561",
+      "credit_code": "92331081MA2xxxxb2",
+      "entity_type": "sole_proprietor",
+      "id": 84,
+      "id_card_no": null,
+      "industry_tags": [
+        "食品",
+        "加工"
+      ],
+      "qualification_level": "C",
+      "region": "温岭市",
+      "service_regions": [
+        "浙江省",
+        "台州市",
+        "温岭市"
+      ],
+      "status": "approved",
+      "user_id": 65
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:02.044240",
+      "business_scope": "台州椒江区宏达机械加工厂是一家位于台州市的机械加工企业，成立于2023年，统一社会信用代码：92331002MA2xxxxb1，经营者：刘某。",
+      "certifications": [],
+      "company_name": "台州椒江区宏达机械加工厂",
+      "contact_email": "contact_7229@example.com",
+      "contact_person": "刘某",
+      "contact_phone": "13999292238",
+      "created_at": "2026-07-20T08:58:02.044514",
+      "credit_code": "92331002MA2xxxxb1",
+      "entity_type": "sole_proprietor",
+      "id": 83,
+      "id_card_no": null,
+      "industry_tags": [
+        "机械",
+        "加工"
+      ],
+      "qualification_level": "C",
+      "region": "台州市",
+      "service_regions": [
+        "浙江省",
+        "台州市"
+      ],
+      "status": "approved",
+      "user_id": 64
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.986034",
+      "business_scope": "诸暨市陶朱街道珍珠加工坊是一家位于诸暨市的珠宝加工企业，成立于2022年，统一社会信用代码：92330681MA2xxxxa9，经营者：赵某。",
+      "certifications": [],
+      "company_name": "诸暨市陶朱街道珍珠加工坊",
+      "contact_email": "contact_8175@example.com",
+      "contact_person": "赵某",
+      "contact_phone": "13573639566",
+      "created_at": "2026-07-20T08:58:01.986415",
+      "credit_code": "92330681MA2xxxxa9",
+      "entity_type": "sole_proprietor",
+      "id": 82,
+      "id_card_no": null,
       "industry_tags": [
         "珠宝",
         "加工"
       ],
+      "qualification_level": "C",
+      "region": "诸暨市",
       "service_regions": [
         "浙江省",
         "绍兴市",
         "诸暨市"
       ],
-      "contact_person": "赵某",
-      "region": "诸暨市",
-      "business_scope": "诸暨市陶朱街道珍珠加工坊是一家位于诸暨市的珠宝加工企业，成立于2022年，统一社会信用代码：92330681MA2xxxxa9，经营者：赵某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 47.1,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 珠宝加工",
-      "scores": {
-        "qualification": 54.0,
-        "technical": 55.0,
-        "history": 40.0,
-        "financial": 39.0,
-        "team": 27.0,
-        "certification": 35.0,
-        "region": 73.0
-      }
+      "status": "approved",
+      "user_id": 63
     },
     {
-      "id": 33,
-      "company_name": "琼海嘉积信达电脑服务部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "IT",
-        "信息服务"
-      ],
-      "service_regions": [
-        "海南省",
-        "琼海市"
-      ],
-      "contact_person": "张某",
-      "region": "琼海市",
-      "business_scope": "琼海嘉积信达电脑服务部是一家位于琼海市的IT服务企业，成立于2022年，统一社会信用代码：92460600MA5xxxxx5，经营者：张某。",
-      "qualification_level": "C",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.928940",
+      "business_scope": "绍兴越城区新纪元信息科技工作室是一家位于绍兴市的信息科技企业，成立于2023年，统一社会信用代码：92330602MA2xxxxa8，经营者：张某。",
       "certifications": [],
-      "overall_score": 46.4,
-      "capability_level": "C",
-      "ai_description": "自动评估 - IT服务",
-      "scores": {
-        "qualification": 45.0,
-        "technical": 64.0,
-        "history": 40.0,
-        "financial": 35.0,
-        "team": 19.0,
-        "certification": 40.0,
-        "region": 74.0
-      }
-    },
-    {
-      "id": 31,
-      "company_name": "儋州那大镇恒发五金店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "五金",
-        "建筑"
-      ],
-      "service_regions": [
-        "海南省",
-        "儋州市"
-      ],
-      "contact_person": "李某",
-      "region": "儋州市",
-      "business_scope": "儋州那大镇恒发五金店是一家位于儋州市的五金企业，成立于2022年，统一社会信用代码：92460300MA5xxxxx3，经营者：李某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 46.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 五金",
-      "scores": {
-        "qualification": 57.0,
-        "technical": 62.0,
-        "history": 39.0,
-        "financial": 35.0,
-        "team": 22.0,
-        "certification": 22.0,
-        "region": 67.0
-      }
-    },
-    {
-      "id": 43,
-      "company_name": "海口秀英区绿源环保科技服务部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "环保",
-        "科技"
-      ],
-      "service_regions": [
-        "海南省",
-        "海口市"
-      ],
-      "contact_person": "李某",
-      "region": "海口市",
-      "business_scope": "海口秀英区绿源环保科技服务部是一家位于海口市的环保科技企业，成立于2023年，统一社会信用代码：92460102MA5xxxxa6，经营者：李某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 45.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 环保科技",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 65.0,
-        "history": 39.0,
-        "financial": 31.0,
-        "team": 25.0,
-        "certification": 39.0,
-        "region": 73.0
-      }
-    },
-    {
-      "id": 35,
-      "company_name": "澄迈老城创新科技工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "科技",
-        "技术服务"
-      ],
-      "service_regions": [
-        "海南省",
-        "澄迈县"
-      ],
-      "contact_person": "林某",
-      "region": "澄迈县",
-      "business_scope": "澄迈老城创新科技工作室是一家位于澄迈县的科技服务企业，成立于2023年，统一社会信用代码：92469000MA5xxxxx7，经营者：林某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 44.9,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 科技服务",
-      "scores": {
-        "qualification": 43.0,
-        "technical": 68.0,
-        "history": 33.0,
-        "financial": 34.0,
-        "team": 25.0,
-        "certification": 36.0,
-        "region": 65.0
-      }
-    },
-    {
-      "id": 74,
-      "company_name": "温州瓯海区恒丰建材经营部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "建材",
-        "建筑"
-      ],
-      "service_regions": [
-        "浙江省",
-        "温州市"
-      ],
-      "contact_person": "郑某",
-      "region": "温州市",
-      "business_scope": "温州瓯海区恒丰建材经营部是一家位于温州市的建材企业，成立于2022年，统一社会信用代码：92330304MA2xxxxa1，经营者：郑某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 44.6,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 建材",
-      "scores": {
-        "qualification": 55.0,
-        "technical": 59.0,
-        "history": 37.0,
-        "financial": 34.0,
-        "team": 19.0,
-        "certification": 21.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 76,
-      "company_name": "嘉兴南湖区科创网络技术服务部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "IT",
-        "信息服务"
-      ],
-      "service_regions": [
-        "浙江省",
-        "嘉兴市"
-      ],
-      "contact_person": "黄某",
-      "region": "嘉兴市",
-      "business_scope": "嘉兴南湖区科创网络技术服务部是一家位于嘉兴市的IT服务企业，成立于2023年，统一社会信用代码：92330402MA2xxxxa3，经营者：黄某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 44.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - IT服务",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 67.0,
-        "history": 39.0,
-        "financial": 29.0,
-        "team": 23.0,
-        "certification": 39.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 66,
-      "company_name": "杭州余杭区创新数字科技服务部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "数字",
-        "科技"
-      ],
-      "service_regions": [
-        "浙江省",
-        "杭州市"
-      ],
-      "contact_person": "王某",
-      "region": "杭州市",
-      "business_scope": "杭州余杭区创新数字科技服务部是一家位于杭州市的数字科技企业，成立于2023年，统一社会信用代码：92330110MA2xxxxx2，经营者：王某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 44.1,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 数字科技",
-      "scores": {
-        "qualification": 45.0,
-        "technical": 68.0,
-        "history": 30.0,
-        "financial": 34.0,
-        "team": 16.0,
-        "certification": 31.0,
-        "region": 72.0
-      }
-    },
-    {
-      "id": 65,
-      "company_name": "杭州西湖区智云软件开发工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "软件",
-        "IT"
-      ],
-      "service_regions": [
-        "浙江省",
-        "杭州市"
-      ],
-      "contact_person": "李某",
-      "region": "杭州市",
-      "business_scope": "杭州西湖区智云软件开发工作室是一家位于杭州市的软件开发企业，成立于2023年，统一社会信用代码：92330106MA2xxxxx1，经营者：李某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 44.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 软件开发",
-      "scores": {
-        "qualification": 43.0,
-        "technical": 63.0,
-        "history": 38.0,
-        "financial": 31.0,
-        "team": 20.0,
-        "certification": 35.0,
-        "region": 69.0
-      }
-    },
-    {
-      "id": 39,
-      "company_name": "屯昌屯城明辉建材店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "建材",
-        "建筑"
-      ],
-      "service_regions": [
-        "海南省",
-        "屯昌县"
-      ],
-      "contact_person": "陈某",
-      "region": "屯昌县",
-      "business_scope": "屯昌屯城明辉建材店是一家位于屯昌县的建材企业，成立于2022年，统一社会信用代码：92469003MA5xxxxa2，经营者：陈某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 43.3,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 建材",
-      "scores": {
-        "qualification": 56.0,
-        "technical": 62.0,
-        "history": 30.0,
-        "financial": 30.0,
-        "team": 17.0,
-        "certification": 22.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 30,
-      "company_name": "三亚吉阳新鸿运建材店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "建材",
-        "建筑"
-      ],
-      "service_regions": [
-        "海南省",
-        "三亚市"
-      ],
-      "contact_person": "王某",
-      "region": "三亚市",
-      "business_scope": "三亚吉阳新鸿运建材店是一家位于三亚市的建材企业，成立于2023年，统一社会信用代码：92460200MA5xxxxx2，经营者：王某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 43.1,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 建材",
-      "scores": {
-        "qualification": 59.0,
-        "technical": 56.0,
-        "history": 32.0,
-        "financial": 28.0,
-        "team": 17.0,
-        "certification": 26.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 41,
-      "company_name": "海口龙华区创新软件开发工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "软件",
-        "IT"
-      ],
-      "service_regions": [
-        "海南省",
-        "海口市"
-      ],
-      "contact_person": "刘某",
-      "region": "海口市",
-      "business_scope": "海口龙华区创新软件开发工作室是一家位于海口市的软件开发企业，成立于2023年，统一社会信用代码：92460101MA5xxxxa4，经营者：刘某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 42.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 软件开发",
-      "scores": {
-        "qualification": 40.0,
-        "technical": 62.0,
-        "history": 38.0,
-        "financial": 29.0,
-        "team": 16.0,
-        "certification": 33.0,
-        "region": 72.0
-      }
-    },
-    {
-      "id": 64,
-      "company_name": "温岭市松门庄主文化艺术咨询工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "文化",
-        "咨询"
-      ],
-      "service_regions": [
-        "浙江省",
-        "台州市",
-        "温岭市"
-      ],
-      "contact_person": "庄道斌",
-      "region": "温岭市",
-      "business_scope": "温岭市松门庄主文化艺术咨询工作室是一家位于温岭市的文化咨询企业，成立于2019年，统一社会信用代码：92331081MA2G3PFA73，经营者：庄道斌。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 42.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 文化咨询",
-      "scores": {
-        "qualification": 45.0,
-        "technical": 55.0,
-        "history": 39.0,
-        "financial": 32.0,
-        "team": 15.0,
-        "certification": 27.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 42,
-      "company_name": "三亚天涯区海岛文旅工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "文旅",
-        "服务业"
-      ],
-      "service_regions": [
-        "海南省",
-        "三亚市"
-      ],
-      "contact_person": "周某",
-      "region": "三亚市",
-      "business_scope": "三亚天涯区海岛文旅工作室是一家位于三亚市的文旅服务企业，成立于2023年，统一社会信用代码：92460201MA5xxxxa5，经营者：周某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 41.2,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 文旅服务",
-      "scores": {
-        "qualification": 37.0,
-        "technical": 55.0,
-        "history": 37.0,
-        "financial": 32.0,
-        "team": 25.0,
-        "certification": 27.0,
-        "region": 73.0
-      }
-    },
-    {
-      "id": 81,
       "company_name": "绍兴越城区新纪元信息科技工作室",
+      "contact_email": "contact_2458@example.com",
+      "contact_person": "张某",
+      "contact_phone": "18710985627",
+      "created_at": "2026-07-20T08:58:01.929237",
+      "credit_code": "92330602MA2xxxxa8",
       "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "id": 81,
+      "id_card_no": null,
       "industry_tags": [
         "信息",
         "科技"
       ],
+      "qualification_level": "C",
+      "region": "绍兴市",
       "service_regions": [
         "浙江省",
         "绍兴市"
       ],
-      "contact_person": "张某",
-      "region": "绍兴市",
-      "business_scope": "绍兴越城区新纪元信息科技工作室是一家位于绍兴市的信息科技企业，成立于2023年，统一社会信用代码：92330602MA2xxxxa8，经营者：张某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 41.2,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 信息科技",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 60.0,
-        "history": 38.0,
-        "financial": 26.0,
-        "team": 22.0,
-        "certification": 30.0,
-        "region": 68.0
-      }
+      "status": "approved",
+      "user_id": 62
     },
     {
-      "id": 78,
-      "company_name": "义乌市稠城万通商贸行",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.871932",
+      "business_scope": "永康市东城五金加工厂是一家位于永康市的五金制造企业，成立于2023年，统一社会信用代码：92330784MA2xxxxa7，经营者：王某。",
+      "certifications": [],
+      "company_name": "永康市东城五金加工厂",
+      "contact_email": "contact_6341@example.com",
+      "contact_person": "王某",
+      "contact_phone": "18152242915",
+      "created_at": "2026-07-20T08:58:01.872272",
+      "credit_code": "92330784MA2xxxxa7",
+      "entity_type": "sole_proprietor",
+      "id": 80,
+      "id_card_no": null,
       "industry_tags": [
-        "商贸",
-        "零售"
+        "五金",
+        "制造"
       ],
+      "qualification_level": "C",
+      "region": "永康市",
       "service_regions": [
         "浙江省",
         "金华市",
-        "义乌市"
+        "永康市"
       ],
-      "contact_person": "何某",
-      "region": "义乌市",
-      "business_scope": "义乌市稠城万通商贸行是一家位于义乌市的商贸企业，成立于2023年，统一社会信用代码：92330782MA2xxxxa5，经营者：何某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 41.1,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 商贸",
-      "scores": {
-        "qualification": 36.0,
-        "technical": 54.0,
-        "history": 39.0,
-        "financial": 34.0,
-        "team": 22.0,
-        "certification": 28.0,
-        "region": 71.0
-      }
+      "status": "approved",
+      "user_id": 61
     },
     {
-      "id": 46,
-      "company_name": "五指山通什镇黎族手工艺品工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "手工艺",
-        "文创"
-      ],
-      "service_regions": [
-        "海南省",
-        "五指山市"
-      ],
-      "contact_person": "王某",
-      "region": "五指山市",
-      "business_scope": "五指山通什镇黎族手工艺品工作室是一家位于五指山市的手工艺企业，成立于2023年，统一社会信用代码：92460900MA5xxxxa9，经营者：王某。",
-      "qualification_level": "C",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.814312",
+      "business_scope": "东阳市吴宁古典木雕工作室是一家位于东阳市的木雕工艺企业，成立于2022年，统一社会信用代码：92330783MA2xxxxa6，经营者：李某。",
       "certifications": [],
-      "overall_score": 41.0,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 手工艺",
-      "scores": {
-        "qualification": 35.0,
-        "technical": 55.0,
-        "history": 40.0,
-        "financial": 33.0,
-        "team": 21.0,
-        "certification": 25.0,
-        "region": 75.0
-      }
-    },
-    {
-      "id": 73,
-      "company_name": "温州鹿城区瓯越文化传媒工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "文化",
-        "传媒"
-      ],
-      "service_regions": [
-        "浙江省",
-        "温州市"
-      ],
-      "contact_person": "林某",
-      "region": "温州市",
-      "business_scope": "温州鹿城区瓯越文化传媒工作室是一家位于温州市的文化传媒企业，成立于2023年，统一社会信用代码：92330302MA2xxxxx9，经营者：林某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 40.8,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 文化传媒",
-      "scores": {
-        "qualification": 44.0,
-        "technical": 52.0,
-        "history": 34.0,
-        "financial": 35.0,
-        "team": 15.0,
-        "certification": 23.0,
-        "region": 74.0
-      }
-    },
-    {
-      "id": 86,
-      "company_name": "丽水莲都区瓯江文创工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "文创",
-        "设计"
-      ],
-      "service_regions": [
-        "浙江省",
-        "丽水市"
-      ],
-      "contact_person": "吴某",
-      "region": "丽水市",
-      "business_scope": "丽水莲都区瓯江文创工作室是一家位于丽水市的文创设计企业，成立于2023年，统一社会信用代码：92331102MA2xxxxb4，经营者：吴某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 40.7,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 文创设计",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 53.0,
-        "history": 38.0,
-        "financial": 32.0,
-        "team": 17.0,
-        "certification": 29.0,
-        "region": 72.0
-      }
-    },
-    {
-      "id": 38,
-      "company_name": "定安定城恒丰商贸行",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "商贸",
-        "零售"
-      ],
-      "service_regions": [
-        "海南省",
-        "定安县"
-      ],
-      "contact_person": "吴某",
-      "region": "定安县",
-      "business_scope": "定安定城恒丰商贸行是一家位于定安县的商贸企业，成立于2023年，统一社会信用代码：92469002MA5xxxxa1，经营者：吴某。",
-      "qualification_level": "C",
-      "certifications": [],
-      "overall_score": 40.5,
-      "capability_level": "C",
-      "ai_description": "自动评估 - 商贸",
-      "scores": {
-        "qualification": 42.0,
-        "technical": 50.0,
-        "history": 36.0,
-        "financial": 33.0,
-        "team": 18.0,
-        "certification": 28.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 54,
-      "company_name": "衢州市衢江区岭上隐宿民宿",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "旅游",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "徐延忠",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区岭上隐宿民宿是一家位于衢州市的民宿旅游企业，成立于2019年，统一社会信用代码：92330803MA2DLK2M48，经营者：徐延忠。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.9,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 民宿旅游",
-      "scores": {
-        "qualification": 42.0,
-        "technical": 50.0,
-        "history": 38.0,
-        "financial": 31.0,
-        "team": 19.0,
-        "certification": 25.0,
-        "region": 67.0
-      }
-    },
-    {
-      "id": 62,
-      "company_name": "温岭市太平米松烘焙坊",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "烘焙",
-        "食品"
-      ],
-      "service_regions": [
-        "浙江省",
-        "台州市",
-        "温岭市"
-      ],
-      "contact_person": "叶雪松",
-      "region": "温岭市",
-      "business_scope": "温岭市太平米松烘焙坊是一家位于温岭市的烘焙食品企业，成立于2022年，统一社会信用代码：92331081MACLFREM2W，经营者：叶雪松。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.7,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 烘焙食品",
-      "scores": {
-        "qualification": 40.0,
-        "technical": 51.0,
-        "history": 32.0,
-        "financial": 34.0,
-        "team": 24.0,
-        "certification": 24.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 57,
-      "company_name": "江山市蓝天白云民宿",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "旅游",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "毛冬英",
-      "region": "江山市",
-      "business_scope": "江山市蓝天白云民宿是一家位于江山市的民宿旅游企业，成立于2019年，统一社会信用代码：92330881MA2DG1P954，经营者：毛冬英。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.6,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 民宿旅游",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 49.0,
-        "history": 36.0,
-        "financial": 35.0,
-        "team": 23.0,
-        "certification": 22.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 88,
-      "company_name": "舟山定海区海港渔需物资经营部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "渔业",
-        "物资"
-      ],
-      "service_regions": [
-        "浙江省",
-        "舟山市"
-      ],
-      "contact_person": "王某",
-      "region": "舟山市",
-      "business_scope": "舟山定海区海港渔需物资经营部是一家位于舟山市的渔需物资企业，成立于2023年，统一社会信用代码：92330902MA2xxxxb6，经营者：王某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.6,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 渔需物资",
-      "scores": {
-        "qualification": 37.0,
-        "technical": 55.0,
-        "history": 39.0,
-        "financial": 25.0,
-        "team": 21.0,
-        "certification": 25.0,
-        "region": 70.0
-      }
-    },
-    {
-      "id": 61,
-      "company_name": "江山君嘟土特产商行",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "农特产",
-        "商贸"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "余丽雁",
-      "region": "江山市",
-      "business_scope": "江山君嘟土特产商行是一家位于江山市的农特产企业，成立于2020年，统一社会信用代码：92330881MA2FU4527W，经营者：余丽雁。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.5,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 农特产",
-      "scores": {
-        "qualification": 40.0,
-        "technical": 53.0,
-        "history": 38.0,
-        "financial": 29.0,
-        "team": 19.0,
-        "certification": 24.0,
-        "region": 65.0
-      }
-    },
-    {
-      "id": 63,
-      "company_name": "温岭市石塘迎新食品商行",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "食品",
-        "零售"
-      ],
-      "service_regions": [
-        "浙江省",
-        "台州市",
-        "温岭市"
-      ],
-      "contact_person": "包灵义",
-      "region": "温岭市",
-      "business_scope": "温岭市石塘迎新食品商行是一家位于温岭市的食品零售企业，成立于2022年，统一社会信用代码：92331081MAC5HR3GXM，经营者：包灵义。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.4,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 食品零售",
-      "scores": {
-        "qualification": 43.0,
-        "technical": 48.0,
-        "history": 31.0,
-        "financial": 31.0,
-        "team": 20.0,
-        "certification": 28.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 59,
-      "company_name": "江山市蜂康宁蜂产品店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "蜂产品",
-        "农业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "张群芬",
-      "region": "江山市",
-      "business_scope": "江山市蜂康宁蜂产品店是一家位于江山市的蜂产品企业，成立于2018年，统一社会信用代码：92330881MA29T6E96B，经营者：张群芬。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.2,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 蜂产品",
-      "scores": {
-        "qualification": 43.0,
-        "technical": 53.0,
-        "history": 34.0,
-        "financial": 25.0,
-        "team": 19.0,
-        "certification": 23.0,
-        "region": 70.0
-      }
-    },
-    {
-      "id": 34,
-      "company_name": "万宁万城顺通运输服务部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "物流",
-        "运输"
-      ],
-      "service_regions": [
-        "海南省",
-        "万宁市"
-      ],
-      "contact_person": "刘某",
-      "region": "万宁市",
-      "business_scope": "万宁万城顺通运输服务部是一家位于万宁市的物流运输企业，成立于2023年，统一社会信用代码：92460700MA5xxxxx6，经营者：刘某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.1,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 物流运输",
-      "scores": {
-        "qualification": 44.0,
-        "technical": 50.0,
-        "history": 33.0,
-        "financial": 26.0,
-        "team": 17.0,
-        "certification": 29.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 48,
-      "company_name": "衢州市衢江区园耕记饭店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "餐饮",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "郑志芳",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区园耕记饭店是一家位于衢州市的餐饮服务企业，成立于2024年，统一社会信用代码：92330803MAEL4FYK4Q，经营者：郑志芳。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 39.0,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 餐饮服务",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 50.0,
-        "history": 34.0,
-        "financial": 35.0,
-        "team": 18.0,
-        "certification": 20.0,
-        "region": 70.0
-      }
-    },
-    {
-      "id": 70,
-      "company_name": "宁波海曙区永盛五金商贸行",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "五金",
-        "商贸"
-      ],
-      "service_regions": [
-        "浙江省",
-        "宁波市"
-      ],
-      "contact_person": "周某",
-      "region": "宁波市",
-      "business_scope": "宁波海曙区永盛五金商贸行是一家位于宁波市的五金商贸企业，成立于2023年，统一社会信用代码：92330203MA2xxxxx6，经营者：周某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.9,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 五金商贸",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 47.0,
-        "history": 35.0,
-        "financial": 35.0,
-        "team": 24.0,
-        "certification": 20.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 51,
-      "company_name": "衢州市衢江区邵氏母婴生活馆",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "母婴",
-        "零售"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "邵六月古",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区邵氏母婴生活馆是一家位于衢州市的母婴用品企业，成立于2018年，统一社会信用代码：92330803MA29TC4W7M，经营者：邵六月古。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.7,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 母婴用品",
-      "scores": {
-        "qualification": 43.0,
-        "technical": 46.0,
-        "history": 38.0,
-        "financial": 26.0,
-        "team": 25.0,
-        "certification": 21.0,
-        "region": 67.0
-      }
-    },
-    {
-      "id": 32,
-      "company_name": "文昌文城永信广告工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "广告",
-        "设计"
-      ],
-      "service_regions": [
-        "海南省",
-        "文昌市"
-      ],
-      "contact_person": "陈某",
-      "region": "文昌市",
-      "business_scope": "文昌文城永信广告工作室是一家位于文昌市的广告设计企业，成立于2023年，统一社会信用代码：92460500MA5xxxxx4，经营者：陈某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.5,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 广告设计",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 46.0,
-        "history": 38.0,
-        "financial": 31.0,
-        "team": 16.0,
-        "certification": 30.0,
-        "region": 65.0
-      }
-    },
-    {
-      "id": 68,
-      "company_name": "杭州萧山区宏图广告设计工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "广告",
-        "设计"
-      ],
-      "service_regions": [
-        "浙江省",
-        "杭州市"
-      ],
-      "contact_person": "张某",
-      "region": "杭州市",
-      "business_scope": "杭州萧山区宏图广告设计工作室是一家位于杭州市的广告设计企业，成立于2023年，统一社会信用代码：92330109MA2xxxxx4，经营者：张某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.5,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 广告设计",
-      "scores": {
-        "qualification": 36.0,
-        "technical": 46.0,
-        "history": 39.0,
-        "financial": 31.0,
-        "team": 20.0,
-        "certification": 24.0,
-        "region": 72.0
-      }
-    },
-    {
-      "id": 71,
-      "company_name": "宁波鄞州区博远信息服务工作室",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "信息",
-        "服务"
-      ],
-      "service_regions": [
-        "浙江省",
-        "宁波市"
-      ],
-      "contact_person": "吴某",
-      "region": "宁波市",
-      "business_scope": "宁波鄞州区博远信息服务工作室是一家位于宁波市的信息服务企业，成立于2023年，统一社会信用代码：92330212MA2xxxxx7，经营者：吴某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.4,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 信息服务",
-      "scores": {
-        "qualification": 41.0,
-        "technical": 45.0,
-        "history": 33.0,
-        "financial": 29.0,
-        "team": 23.0,
-        "certification": 30.0,
-        "region": 66.0
-      }
-    },
-    {
-      "id": 29,
-      "company_name": "海口美兰区老彭记餐饮店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "餐饮",
-        "服务业"
-      ],
-      "service_regions": [
-        "海南省",
-        "海口市"
-      ],
-      "contact_person": "彭某某",
-      "region": "海口市",
-      "business_scope": "海口美兰区老彭记餐饮店是一家位于海口市的餐饮服务企业，成立于2023年，统一社会信用代码：92460100MA5xxxxx1，经营者：彭某某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.2,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 餐饮服务",
-      "scores": {
-        "qualification": 41.0,
-        "technical": 49.0,
-        "history": 30.0,
-        "financial": 30.0,
-        "team": 20.0,
-        "certification": 21.0,
-        "region": 71.0
-      }
-    },
-    {
-      "id": 40,
-      "company_name": "临高临城海味水产店",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "水产",
-        "农业"
-      ],
-      "service_regions": [
-        "海南省",
-        "临高县"
-      ],
-      "contact_person": "王某",
-      "region": "临高县",
-      "business_scope": "临高临城海味水产店是一家位于临高县的水产企业，成立于2023年，统一社会信用代码：92469004MA5xxxxa3，经营者：王某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.0,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 水产",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 45.0,
-        "history": 36.0,
-        "financial": 25.0,
-        "team": 18.0,
-        "certification": 28.0,
-        "region": 75.0
-      }
-    },
-    {
-      "id": 49,
-      "company_name": "衢州市衢江区思俊菜馆",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "餐饮",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "樊樟龙",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区思俊菜馆是一家位于衢州市的餐饮服务企业，成立于2018年，统一社会信用代码：92330803MA28FTYL7E，经营者：樊樟龙。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.0,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 餐饮服务",
-      "scores": {
-        "qualification": 37.0,
-        "technical": 47.0,
-        "history": 32.0,
-        "financial": 30.0,
-        "team": 23.0,
-        "certification": 21.0,
-        "region": 75.0
-      }
-    },
-    {
-      "id": 53,
-      "company_name": "衢州市衢江区工尺上民宿",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "旅游",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市"
-      ],
-      "contact_person": "易剑华",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区工尺上民宿是一家位于衢州市的民宿旅游企业，成立于2019年，统一社会信用代码：92330803MA2DLJW37B，经营者：易剑华。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 38.0,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 民宿旅游",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 45.0,
-        "history": 40.0,
-        "financial": 29.0,
-        "team": 16.0,
-        "certification": 25.0,
-        "region": 69.0
-      }
-    },
-    {
-      "id": 79,
       "company_name": "东阳市吴宁古典木雕工作室",
+      "contact_email": "contact_5723@example.com",
+      "contact_person": "李某",
+      "contact_phone": "15561190243",
+      "created_at": "2026-07-20T08:58:01.814599",
+      "credit_code": "92330783MA2xxxxa6",
       "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "id": 79,
+      "id_card_no": null,
       "industry_tags": [
         "木雕",
         "手工艺"
       ],
+      "qualification_level": "D",
+      "region": "东阳市",
       "service_regions": [
         "浙江省",
         "金华市",
         "东阳市"
       ],
-      "contact_person": "李某",
-      "region": "东阳市",
-      "business_scope": "东阳市吴宁古典木雕工作室是一家位于东阳市的木雕工艺企业，成立于2022年，统一社会信用代码：92330783MA2xxxxa6，经营者：李某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 37.8,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 木雕工艺",
-      "scores": {
-        "qualification": 37.0,
-        "technical": 48.0,
-        "history": 33.0,
-        "financial": 29.0,
-        "team": 19.0,
-        "certification": 25.0,
-        "region": 71.0
-      }
+      "status": "approved",
+      "user_id": 60
     },
     {
-      "id": 77,
-      "company_name": "海宁市硖石街道潮城广告设计室",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.757018",
+      "business_scope": "义乌市稠城万通商贸行是一家位于义乌市的商贸企业，成立于2023年，统一社会信用代码：92330782MA2xxxxa5，经营者：何某。",
+      "certifications": [],
+      "company_name": "义乌市稠城万通商贸行",
+      "contact_email": "contact_8824@example.com",
+      "contact_person": "何某",
+      "contact_phone": "13281185691",
+      "created_at": "2026-07-20T08:58:01.757297",
+      "credit_code": "92330782MA2xxxxa5",
       "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "id": 78,
+      "id_card_no": null,
+      "industry_tags": [
+        "商贸",
+        "零售"
+      ],
+      "qualification_level": "C",
+      "region": "义乌市",
+      "service_regions": [
+        "浙江省",
+        "金华市",
+        "义乌市"
+      ],
+      "status": "approved",
+      "user_id": 59
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.698932",
+      "business_scope": "海宁市硖石街道潮城广告设计室是一家位于海宁市的广告设计企业，成立于2023年，统一社会信用代码：92330481MA2xxxxa4，经营者：朱某。",
+      "certifications": [],
+      "company_name": "海宁市硖石街道潮城广告设计室",
+      "contact_email": "contact_8161@example.com",
+      "contact_person": "朱某",
+      "contact_phone": "15742617420",
+      "created_at": "2026-07-20T08:58:01.699242",
+      "credit_code": "92330481MA2xxxxa4",
+      "entity_type": "individual",
+      "id": 77,
+      "id_card_no": null,
       "industry_tags": [
         "广告",
         "设计"
       ],
+      "qualification_level": "D",
+      "region": "海宁市",
       "service_regions": [
         "浙江省",
         "嘉兴市",
         "海宁市"
       ],
-      "contact_person": "朱某",
-      "region": "海宁市",
-      "business_scope": "海宁市硖石街道潮城广告设计室是一家位于海宁市的广告设计企业，成立于2023年，统一社会信用代码：92330481MA2xxxxa4，经营者：朱某。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 37.6,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 广告设计",
-      "scores": {
-        "qualification": 39.0,
-        "technical": 45.0,
-        "history": 36.0,
-        "financial": 25.0,
-        "team": 22.0,
-        "certification": 27.0,
-        "region": 68.0
-      }
+      "status": "approved",
+      "user_id": 58
     },
     {
-      "id": 50,
-      "company_name": "衢州市衢江区虹虹超市",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.641508",
+      "business_scope": "嘉兴南湖区科创网络技术服务部是一家位于嘉兴市的IT服务企业，成立于2023年，统一社会信用代码：92330402MA2xxxxa3，经营者：黄某。",
+      "certifications": [],
+      "company_name": "嘉兴南湖区科创网络技术服务部",
+      "contact_email": "contact_3093@example.com",
+      "contact_person": "黄某",
+      "contact_phone": "13681953349",
+      "created_at": "2026-07-20T08:58:01.641812",
+      "credit_code": "92330402MA2xxxxa3",
       "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "id": 76,
+      "id_card_no": null,
       "industry_tags": [
-        "零售"
+        "IT",
+        "信息服务"
       ],
+      "qualification_level": "C",
+      "region": "嘉兴市",
       "service_regions": [
         "浙江省",
-        "衢州市"
+        "嘉兴市"
       ],
-      "contact_person": "方三仙",
-      "region": "衢州市",
-      "business_scope": "衢州市衢江区虹虹超市是一家位于衢州市的零售企业，成立于2022年，统一社会信用代码：92330803MAC1DH1E82，经营者：方三仙。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 37.5,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 零售",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 45.0,
-        "history": 35.0,
-        "financial": 26.0,
-        "team": 23.0,
-        "certification": 24.0,
-        "region": 70.0
-      }
+      "status": "approved",
+      "user_id": 57
     },
     {
-      "id": 58,
-      "company_name": "江山市新口福餐厅",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "餐饮",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "俞红华",
-      "region": "江山市",
-      "business_scope": "江山市新口福餐厅是一家位于江山市的餐饮服务企业，成立于2018年，统一社会信用代码：92330881MA29T8HP1R，经营者：俞红华。",
-      "qualification_level": "D",
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.583985",
+      "business_scope": "温州龙湾区海天水产经营部是一家位于温州市的水产企业，成立于2023年，统一社会信用代码：92330303MA2xxxxa2，经营者：陈某。",
       "certifications": [],
-      "overall_score": 37.5,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 餐饮服务",
-      "scores": {
-        "qualification": 37.0,
-        "technical": 48.0,
-        "history": 37.0,
-        "financial": 29.0,
-        "team": 15.0,
-        "certification": 23.0,
-        "region": 68.0
-      }
-    },
-    {
-      "id": 60,
-      "company_name": "江山市奥泳体育俱乐部",
-      "entity_type": "individual",
-      "entity_type_label": "个体经营者",
-      "industry_tags": [
-        "体育",
-        "服务业"
-      ],
-      "service_regions": [
-        "浙江省",
-        "衢州市",
-        "江山市"
-      ],
-      "contact_person": "张梦楠",
-      "region": "江山市",
-      "business_scope": "江山市奥泳体育俱乐部是一家位于江山市的体育服务企业，成立于2024年，统一社会信用代码：92330881MACH3DQD8H，经营者：张梦楠。",
-      "qualification_level": "D",
-      "certifications": [],
-      "overall_score": 37.2,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 体育服务",
-      "scores": {
-        "qualification": 36.0,
-        "technical": 48.0,
-        "history": 34.0,
-        "financial": 29.0,
-        "team": 15.0,
-        "certification": 30.0,
-        "region": 65.0
-      }
-    },
-    {
-      "id": 75,
       "company_name": "温州龙湾区海天水产经营部",
+      "contact_email": "contact_9330@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "15894017956",
+      "created_at": "2026-07-20T08:58:01.584268",
+      "credit_code": "92330303MA2xxxxa2",
       "entity_type": "individual",
-      "entity_type_label": "个体经营者",
+      "id": 75,
+      "id_card_no": null,
       "industry_tags": [
         "水产",
         "农业"
       ],
+      "qualification_level": "D",
+      "region": "温州市",
       "service_regions": [
         "浙江省",
         "温州市"
       ],
-      "contact_person": "陈某",
-      "region": "温州市",
-      "business_scope": "温州龙湾区海天水产经营部是一家位于温州市的水产企业，成立于2023年，统一社会信用代码：92330303MA2xxxxa2，经营者：陈某。",
-      "qualification_level": "D",
+      "status": "approved",
+      "user_id": 56
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.526141",
+      "business_scope": "温州瓯海区恒丰建材经营部是一家位于温州市的建材企业，成立于2022年，统一社会信用代码：92330304MA2xxxxa1，经营者：郑某。",
       "certifications": [],
-      "overall_score": 37.2,
-      "capability_level": "D",
-      "ai_description": "自动评估 - 水产",
-      "scores": {
-        "qualification": 38.0,
-        "technical": 45.0,
-        "history": 38.0,
-        "financial": 26.0,
-        "team": 15.0,
-        "certification": 20.0,
-        "region": 75.0
-      }
-    }
-  ],
-  "top_matches": [
-    {
-      "id": 29,
-      "enterprise_id": 26,
-      "enterprise_name": "海南晟皇贸易有限公司",
-      "project_id": 221,
-      "project_title": "境外投资项目备案通知书[海南享誉国际投资有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202607/ea995920fcab46b1a9c8aab34144db8f.shtml",
-      "match_score": 0.998,
-      "vector_score": 0.607,
-      "rule_score": 0.434,
-      "match_level": "high",
-      "match_reasons": []
+      "company_name": "温州瓯海区恒丰建材经营部",
+      "contact_email": "contact_3886@example.com",
+      "contact_person": "郑某",
+      "contact_phone": "13198929038",
+      "created_at": "2026-07-20T08:58:01.526422",
+      "credit_code": "92330304MA2xxxxa1",
+      "entity_type": "individual",
+      "id": 74,
+      "id_card_no": null,
+      "industry_tags": [
+        "建材",
+        "建筑"
+      ],
+      "qualification_level": "C",
+      "region": "温州市",
+      "service_regions": [
+        "浙江省",
+        "温州市"
+      ],
+      "status": "approved",
+      "user_id": 55
     },
     {
-      "id": 22,
-      "enterprise_id": 24,
-      "enterprise_name": "海南铖旭贸易有限公司",
-      "project_id": 117,
-      "project_title": "国家级猪种质资源与模型保存与繁育基地项目第六批次设备招标中标公示公告",
-      "project_industry": "农业园林",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260706/1ecd03cea4e106cac27e192691577881.html",
-      "match_score": 0.997,
-      "vector_score": 0.58,
-      "rule_score": 0.38,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.467802",
+      "business_scope": "温州鹿城区瓯越文化传媒工作室是一家位于温州市的文化传媒企业，成立于2023年，统一社会信用代码：92330302MA2xxxxx9，经营者：林某。",
+      "certifications": [],
+      "company_name": "温州鹿城区瓯越文化传媒工作室",
+      "contact_email": "contact_6294@example.com",
+      "contact_person": "林某",
+      "contact_phone": "18928856105",
+      "created_at": "2026-07-20T08:58:01.468104",
+      "credit_code": "92330302MA2xxxxx9",
+      "entity_type": "individual",
+      "id": 73,
+      "id_card_no": null,
+      "industry_tags": [
+        "文化",
+        "传媒"
+      ],
+      "qualification_level": "C",
+      "region": "温州市",
+      "service_regions": [
+        "浙江省",
+        "温州市"
+      ],
+      "status": "approved",
+      "user_id": 54
     },
     {
-      "id": 1,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 239,
-      "project_title": "境外投资项目备案通知书[海南有弘科技有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202605/3c5d603d405542cf81a2cfafc4277bbe.shtml",
-      "match_score": 0.995,
-      "vector_score": 0.613,
-      "rule_score": 0.426,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.410094",
+      "business_scope": "宁波北仑区港通物流服务部是一家位于宁波市的物流运输企业，成立于2022年，统一社会信用代码：92330206MA2xxxxx8，经营者：赵某。",
+      "certifications": [],
+      "company_name": "宁波北仑区港通物流服务部",
+      "contact_email": "contact_7981@example.com",
+      "contact_person": "赵某",
+      "contact_phone": "13415097230",
+      "created_at": "2026-07-20T08:58:01.410379",
+      "credit_code": "92330206MA2xxxxx8",
+      "entity_type": "sole_proprietor",
+      "id": 72,
+      "id_card_no": null,
+      "industry_tags": [
+        "物流",
+        "运输"
+      ],
+      "qualification_level": "C",
+      "region": "宁波市",
+      "service_regions": [
+        "浙江省",
+        "宁波市"
+      ],
+      "status": "approved",
+      "user_id": 53
     },
     {
-      "id": 23,
-      "enterprise_id": 24,
-      "enterprise_name": "海南铖旭贸易有限公司",
-      "project_id": 278,
-      "project_title": "定安县国民经济和社会发展第十四个五年规划和二〇三五年远景目标纲要",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/fzgh/202110/717ac67c565e4546b3f1c6ade1c0d55e.shtml",
-      "match_score": 0.995,
-      "vector_score": 0.551,
-      "rule_score": 0.419,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.351031",
+      "business_scope": "宁波鄞州区博远信息服务工作室是一家位于宁波市的信息服务企业，成立于2023年，统一社会信用代码：92330212MA2xxxxx7，经营者：吴某。",
+      "certifications": [],
+      "company_name": "宁波鄞州区博远信息服务工作室",
+      "contact_email": "contact_2723@example.com",
+      "contact_person": "吴某",
+      "contact_phone": "13374547820",
+      "created_at": "2026-07-20T08:58:01.351340",
+      "credit_code": "92330212MA2xxxxx7",
+      "entity_type": "individual",
+      "id": 71,
+      "id_card_no": null,
+      "industry_tags": [
+        "信息",
+        "服务"
+      ],
+      "qualification_level": "D",
+      "region": "宁波市",
+      "service_regions": [
+        "浙江省",
+        "宁波市"
+      ],
+      "status": "approved",
+      "user_id": 52
     },
     {
-      "id": 37,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 74,
-      "project_title": "御江国际二期（前期物业管理服务）项目招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260703/ff8080819bea60de019f166d9ff60fb7.html",
-      "match_score": 0.995,
-      "vector_score": 0.577,
-      "rule_score": 0.36,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.293535",
+      "business_scope": "宁波海曙区永盛五金商贸行是一家位于宁波市的五金商贸企业，成立于2023年，统一社会信用代码：92330203MA2xxxxx6，经营者：周某。",
+      "certifications": [],
+      "company_name": "宁波海曙区永盛五金商贸行",
+      "contact_email": "contact_7165@example.com",
+      "contact_person": "周某",
+      "contact_phone": "19884259791",
+      "created_at": "2026-07-20T08:58:01.293819",
+      "credit_code": "92330203MA2xxxxx6",
+      "entity_type": "individual",
+      "id": 70,
+      "id_card_no": null,
+      "industry_tags": [
+        "五金",
+        "商贸"
+      ],
+      "qualification_level": "D",
+      "region": "宁波市",
+      "service_regions": [
+        "浙江省",
+        "宁波市"
+      ],
+      "status": "approved",
+      "user_id": 51
     },
     {
-      "id": 2,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 234,
-      "project_title": "境外投资项目备案通知书[紫金矿业贸易（海南）有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202605/5ee2658ea1e64513b28e134040f38ba9.shtml",
-      "match_score": 0.993,
-      "vector_score": 0.586,
-      "rule_score": 0.388,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.234690",
+      "business_scope": "杭州富阳区绿农果蔬种植场是一家位于杭州市的农业种植企业，成立于2022年，统一社会信用代码：92330111MA2xxxxx5，经营者：刘某。",
+      "certifications": [],
+      "company_name": "杭州富阳区绿农果蔬种植场",
+      "contact_email": "contact_1710@example.com",
+      "contact_person": "刘某",
+      "contact_phone": "18691152961",
+      "created_at": "2026-07-20T08:58:01.234979",
+      "credit_code": "92330111MA2xxxxx5",
+      "entity_type": "sole_proprietor",
+      "id": 69,
+      "id_card_no": null,
+      "industry_tags": [
+        "农业",
+        "种植"
+      ],
+      "qualification_level": "C",
+      "region": "杭州市",
+      "service_regions": [
+        "浙江省",
+        "杭州市"
+      ],
+      "status": "approved",
+      "user_id": 50
     },
     {
-      "id": 24,
-      "enterprise_id": 24,
-      "enterprise_name": "海南铖旭贸易有限公司",
-      "project_id": 137,
-      "project_title": "（机器管招投标）清澜新港一线口岸海关监管场所建设项目项目(清澜新港一线口岸海关监管场所建设项目)中标候选人公示",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260701/2c9a70e69eee5058019f1b77731220c6.html",
-      "match_score": 0.993,
-      "vector_score": 0.553,
-      "rule_score": 0.374,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.177116",
+      "business_scope": "杭州萧山区宏图广告设计工作室是一家位于杭州市的广告设计企业，成立于2023年，统一社会信用代码：92330109MA2xxxxx4，经营者：张某。",
+      "certifications": [],
+      "company_name": "杭州萧山区宏图广告设计工作室",
+      "contact_email": "contact_7431@example.com",
+      "contact_person": "张某",
+      "contact_phone": "15893823708",
+      "created_at": "2026-07-20T08:58:01.177398",
+      "credit_code": "92330109MA2xxxxx4",
+      "entity_type": "individual",
+      "id": 68,
+      "id_card_no": null,
+      "industry_tags": [
+        "广告",
+        "设计"
+      ],
+      "qualification_level": "D",
+      "region": "杭州市",
+      "service_regions": [
+        "浙江省",
+        "杭州市"
+      ],
+      "status": "approved",
+      "user_id": 49
     },
     {
-      "id": 25,
-      "enterprise_id": 24,
-      "enterprise_name": "海南铖旭贸易有限公司",
-      "project_id": 221,
-      "project_title": "境外投资项目备案通知书[海南享誉国际投资有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202607/ea995920fcab46b1a9c8aab34144db8f.shtml",
-      "match_score": 0.991,
-      "vector_score": 0.548,
-      "rule_score": 0.417,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.118567",
+      "business_scope": "杭州临平区诚达装饰工程部是一家位于杭州市的装饰工程企业，成立于2022年，统一社会信用代码：92330113MA2xxxxx3，经营者：陈某。",
+      "certifications": [],
+      "company_name": "杭州临平区诚达装饰工程部",
+      "contact_email": "contact_7646@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "19352392917",
+      "created_at": "2026-07-20T08:58:01.118954",
+      "credit_code": "92330113MA2xxxxx3",
+      "entity_type": "sole_proprietor",
+      "id": 67,
+      "id_card_no": null,
+      "industry_tags": [
+        "装饰",
+        "建筑工程"
+      ],
+      "qualification_level": "C",
+      "region": "杭州市",
+      "service_regions": [
+        "浙江省",
+        "杭州市"
+      ],
+      "status": "approved",
+      "user_id": 48
     },
     {
-      "id": 88,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 279,
-      "project_title": "海南省财政厅关于公布海南省2025年度备案通过及2026年上半年取得执业许可的会计师事务所（分所）名单的通知",
-      "project_industry": "综合服务",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/0400/202607/db2e7dfdf5fb4871937a0fba35d89b3b.shtml",
-      "match_score": 0.991,
-      "vector_score": 0.598,
-      "rule_score": 0.396,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.060149",
+      "business_scope": "杭州余杭区创新数字科技服务部是一家位于杭州市的数字科技企业，成立于2023年，统一社会信用代码：92330110MA2xxxxx2，经营者：王某。",
+      "certifications": [],
+      "company_name": "杭州余杭区创新数字科技服务部",
+      "contact_email": "contact_9253@example.com",
+      "contact_person": "王某",
+      "contact_phone": "19561694376",
+      "created_at": "2026-07-20T08:58:01.060435",
+      "credit_code": "92330110MA2xxxxx2",
+      "entity_type": "individual",
+      "id": 66,
+      "id_card_no": null,
+      "industry_tags": [
+        "数字",
+        "科技"
+      ],
+      "qualification_level": "C",
+      "region": "杭州市",
+      "service_regions": [
+        "浙江省",
+        "杭州市"
+      ],
+      "status": "approved",
+      "user_id": 47
     },
     {
-      "id": 3,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 360,
-      "project_title": "海南省住房公积金管理局关于开展住房公积金缴存人子女购房提取住房公积金业务的通知",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/0101/202603/2001fcda1a5045bd824f03c58bf8d94c.shtml",
-      "match_score": 0.99,
-      "vector_score": 0.546,
-      "rule_score": 0.371,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:01.001352",
+      "business_scope": "杭州西湖区智云软件开发工作室是一家位于杭州市的软件开发企业，成立于2023年，统一社会信用代码：92330106MA2xxxxx1，经营者：李某。",
+      "certifications": [],
+      "company_name": "杭州西湖区智云软件开发工作室",
+      "contact_email": "contact_7177@example.com",
+      "contact_person": "李某",
+      "contact_phone": "19316057123",
+      "created_at": "2026-07-20T08:58:01.001639",
+      "credit_code": "92330106MA2xxxxx1",
+      "entity_type": "individual",
+      "id": 65,
+      "id_card_no": null,
+      "industry_tags": [
+        "软件",
+        "IT"
+      ],
+      "qualification_level": "C",
+      "region": "杭州市",
+      "service_regions": [
+        "浙江省",
+        "杭州市"
+      ],
+      "status": "approved",
+      "user_id": 46
     },
     {
-      "id": 32,
-      "enterprise_id": 27,
-      "enterprise_name": "海南土沉香科技有限公司",
-      "project_id": 366,
-      "project_title": "海南省公布2026年新闻发言人名录",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/0101/202601/8f5bc7340e6348fba8d16458ca8ca014.shtml",
-      "match_score": 0.99,
-      "vector_score": 0.59,
-      "rule_score": 0.438,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.944415",
+      "business_scope": "温岭市松门庄主文化艺术咨询工作室是一家位于温岭市的文化咨询企业，成立于2019年，统一社会信用代码：92331081MA2G3PFA73，经营者：庄道斌。",
+      "certifications": [],
+      "company_name": "温岭市松门庄主文化艺术咨询工作室",
+      "contact_email": "contact_7548@example.com",
+      "contact_person": "庄道斌",
+      "contact_phone": "15116561342",
+      "created_at": "2026-07-20T08:58:00.944702",
+      "credit_code": "92331081MA2G3PFA73",
+      "entity_type": "individual",
+      "id": 64,
+      "id_card_no": null,
+      "industry_tags": [
+        "文化",
+        "咨询"
+      ],
+      "qualification_level": "C",
+      "region": "温岭市",
+      "service_regions": [
+        "浙江省",
+        "台州市",
+        "温岭市"
+      ],
+      "status": "approved",
+      "user_id": 45
     },
     {
-      "id": 33,
-      "enterprise_id": 27,
-      "enterprise_name": "海南土沉香科技有限公司",
-      "project_id": 378,
-      "project_title": "未来五年城市这样更新！四部门详解",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.gov.cn/zhengce/202606/content_7071519.htm",
-      "match_score": 0.99,
-      "vector_score": 0.549,
-      "rule_score": 0.35,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.885945",
+      "business_scope": "温岭市石塘迎新食品商行是一家位于温岭市的食品零售企业，成立于2022年，统一社会信用代码：92331081MAC5HR3GXM，经营者：包灵义。",
+      "certifications": [],
+      "company_name": "温岭市石塘迎新食品商行",
+      "contact_email": "contact_6013@example.com",
+      "contact_person": "包灵义",
+      "contact_phone": "19288347664",
+      "created_at": "2026-07-20T08:58:00.886301",
+      "credit_code": "92331081MAC5HR3GXM",
+      "entity_type": "individual",
+      "id": 63,
+      "id_card_no": null,
+      "industry_tags": [
+        "食品",
+        "零售"
+      ],
+      "qualification_level": "D",
+      "region": "温岭市",
+      "service_regions": [
+        "浙江省",
+        "台州市",
+        "温岭市"
+      ],
+      "status": "approved",
+      "user_id": 44
     },
     {
-      "id": 38,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 71,
-      "project_title": "（机器管招投标）博厚镇2026年基础设施项目招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260703/2c9a70829eeec1e7019f271a944036c3.html",
-      "match_score": 0.99,
-      "vector_score": 0.559,
-      "rule_score": 0.419,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.828681",
+      "business_scope": "温岭市太平米松烘焙坊是一家位于温岭市的烘焙食品企业，成立于2022年，统一社会信用代码：92331081MACLFREM2W，经营者：叶雪松。",
+      "certifications": [],
+      "company_name": "温岭市太平米松烘焙坊",
+      "contact_email": "contact_8922@example.com",
+      "contact_person": "叶雪松",
+      "contact_phone": "18792268984",
+      "created_at": "2026-07-20T08:58:00.828969",
+      "credit_code": "92331081MACLFREM2W",
+      "entity_type": "individual",
+      "id": 62,
+      "id_card_no": null,
+      "industry_tags": [
+        "烘焙",
+        "食品"
+      ],
+      "qualification_level": "D",
+      "region": "温岭市",
+      "service_regions": [
+        "浙江省",
+        "台州市",
+        "温岭市"
+      ],
+      "status": "approved",
+      "user_id": 43
     },
     {
-      "id": 34,
-      "enterprise_id": 27,
-      "enterprise_name": "海南土沉香科技有限公司",
-      "project_id": 53,
-      "project_title": "三亚市吉阳区海罗安置区（一期）项目前期物业管理服务招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260707/52866e56708b456fd824fe5596381ba2.html",
-      "match_score": 0.989,
-      "vector_score": 0.629,
-      "rule_score": 0.427,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.771469",
+      "business_scope": "江山君嘟土特产商行是一家位于江山市的农特产企业，成立于2020年，统一社会信用代码：92330881MA2FU4527W，经营者：余丽雁。",
+      "certifications": [],
+      "company_name": "江山君嘟土特产商行",
+      "contact_email": "contact_2095@example.com",
+      "contact_person": "余丽雁",
+      "contact_phone": "13214176022",
+      "created_at": "2026-07-20T08:58:00.771946",
+      "credit_code": "92330881MA2FU4527W",
+      "entity_type": "individual",
+      "id": 61,
+      "id_card_no": null,
+      "industry_tags": [
+        "农特产",
+        "商贸"
+      ],
+      "qualification_level": "D",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 42
     },
     {
-      "id": 35,
-      "enterprise_id": 27,
-      "enterprise_name": "海南土沉香科技有限公司",
-      "project_id": 233,
-      "project_title": "境外投资项目备案通知书[海南瀚海文韵管理有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202605/4e825a255939413799ebe1fa31d06f22.shtml",
-      "match_score": 0.988,
-      "vector_score": 0.619,
-      "rule_score": 0.376,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.713422",
+      "business_scope": "江山市奥泳体育俱乐部是一家位于江山市的体育服务企业，成立于2024年，统一社会信用代码：92330881MACH3DQD8H，经营者：张梦楠。",
+      "certifications": [],
+      "company_name": "江山市奥泳体育俱乐部",
+      "contact_email": "contact_3841@example.com",
+      "contact_person": "张梦楠",
+      "contact_phone": "18579960177",
+      "created_at": "2026-07-20T08:58:00.713820",
+      "credit_code": "92330881MACH3DQD8H",
+      "entity_type": "individual",
+      "id": 60,
+      "id_card_no": null,
+      "industry_tags": [
+        "体育",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 41
     },
     {
-      "id": 39,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 298,
-      "project_title": "海南财金集团首期科创债圆满发行，助力培育海南自贸港新质生产力",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/zwdt/202605/7e112bd138ef4fcf85f736aa99119cba.shtml",
-      "match_score": 0.988,
-      "vector_score": 0.637,
-      "rule_score": 0.383,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.655818",
+      "business_scope": "江山市蜂康宁蜂产品店是一家位于江山市的蜂产品企业，成立于2018年，统一社会信用代码：92330881MA29T6E96B，经营者：张群芬。",
+      "certifications": [],
+      "company_name": "江山市蜂康宁蜂产品店",
+      "contact_email": "contact_8938@example.com",
+      "contact_person": "张群芬",
+      "contact_phone": "18657658872",
+      "created_at": "2026-07-20T08:58:00.656116",
+      "credit_code": "92330881MA29T6E96B",
+      "entity_type": "individual",
+      "id": 59,
+      "id_card_no": null,
+      "industry_tags": [
+        "蜂产品",
+        "农业"
+      ],
+      "qualification_level": "D",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 40
     },
     {
-      "id": 89,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 353,
-      "project_title": "海南省人民政府关于废止《海南省建帐监督管理办法》的决定",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/fzfztz/202202/636d00e6b3a441ca97a96a68aca69e79.shtml",
-      "match_score": 0.988,
-      "vector_score": 0.595,
-      "rule_score": 0.395,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.598179",
+      "business_scope": "江山市新口福餐厅是一家位于江山市的餐饮服务企业，成立于2018年，统一社会信用代码：92330881MA29T8HP1R，经营者：俞红华。",
+      "certifications": [],
+      "company_name": "江山市新口福餐厅",
+      "contact_email": "contact_7257@example.com",
+      "contact_person": "俞红华",
+      "contact_phone": "18230695072",
+      "created_at": "2026-07-20T08:58:00.598463",
+      "credit_code": "92330881MA29T8HP1R",
+      "entity_type": "individual",
+      "id": 58,
+      "id_card_no": null,
+      "industry_tags": [
+        "餐饮",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 39
     },
     {
-      "id": 4,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 137,
-      "project_title": "（机器管招投标）清澜新港一线口岸海关监管场所建设项目项目(清澜新港一线口岸海关监管场所建设项目)中标候选人公示",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260701/2c9a70e69eee5058019f1b77731220c6.html",
-      "match_score": 0.987,
-      "vector_score": 0.558,
-      "rule_score": 0.395,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.540550",
+      "business_scope": "江山市蓝天白云民宿是一家位于江山市的民宿旅游企业，成立于2019年，统一社会信用代码：92330881MA2DG1P954，经营者：毛冬英。",
+      "certifications": [],
+      "company_name": "江山市蓝天白云民宿",
+      "contact_email": "contact_2668@example.com",
+      "contact_person": "毛冬英",
+      "contact_phone": "19110287035",
+      "created_at": "2026-07-20T08:58:00.540849",
+      "credit_code": "92330881MA2DG1P954",
+      "entity_type": "individual",
+      "id": 57,
+      "id_card_no": null,
+      "industry_tags": [
+        "旅游",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 38
     },
     {
-      "id": 5,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 294,
-      "project_title": "海南财金海盈私募基金管理有限公司正式揭牌开业",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/zwdt/202606/8499559aec084150b330036d177cd5c4.shtml",
-      "match_score": 0.987,
-      "vector_score": 0.559,
-      "rule_score": 0.429,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.483135",
+      "business_scope": "江山市水润茗山家庭农场是一家位于江山市的农业企业，成立于2019年，统一社会信用代码：92330881MA2DGNGB43，经营者：曾盛夷。",
+      "certifications": [],
+      "company_name": "江山市水润茗山家庭农场",
+      "contact_email": "contact_6649@example.com",
+      "contact_person": "曾盛夷",
+      "contact_phone": "15738281133",
+      "created_at": "2026-07-20T08:58:00.483428",
+      "credit_code": "92330881MA2DGNGB43",
+      "entity_type": "sole_proprietor",
+      "id": 56,
+      "id_card_no": null,
+      "industry_tags": [
+        "农业",
+        "种植"
+      ],
+      "qualification_level": "C",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 37
     },
     {
-      "id": 40,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 375,
-      "project_title": "国家发展改革委、人力资源社会保障部有关负责人就《实施就业优先战略“十五五”规划》答记者问",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.gov.cn/zhengce/202606/content_7072578.htm",
-      "match_score": 0.987,
-      "vector_score": 0.555,
-      "rule_score": 0.429,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.426094",
+      "business_scope": "江山市古道茶场是一家位于江山市的茶叶种植企业，成立于2018年，统一社会信用代码：92330881MA29T3CA32，经营者：王建国。",
+      "certifications": [],
+      "company_name": "江山市古道茶场",
+      "contact_email": "contact_2731@example.com",
+      "contact_person": "王建国",
+      "contact_phone": "19508511724",
+      "created_at": "2026-07-20T08:58:00.426386",
+      "credit_code": "92330881MA29T3CA32",
+      "entity_type": "sole_proprietor",
+      "id": 55,
+      "id_card_no": null,
+      "industry_tags": [
+        "茶叶",
+        "农业"
+      ],
+      "qualification_level": "C",
+      "region": "江山市",
+      "service_regions": [
+        "浙江省",
+        "衢州市",
+        "江山市"
+      ],
+      "status": "approved",
+      "user_id": 36
     },
     {
-      "id": 6,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 42,
-      "project_title": "（机器管招投标）东方七彩农产品集散与交易中心（二次招标）招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260708/2c9a70829f276dd8019f3f5858504371.html",
-      "match_score": 0.986,
-      "vector_score": 0.634,
-      "rule_score": 0.382,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.367972",
+      "business_scope": "衢州市衢江区岭上隐宿民宿是一家位于衢州市的民宿旅游企业，成立于2019年，统一社会信用代码：92330803MA2DLK2M48，经营者：徐延忠。",
+      "certifications": [],
+      "company_name": "衢州市衢江区岭上隐宿民宿",
+      "contact_email": "contact_3085@example.com",
+      "contact_person": "徐延忠",
+      "contact_phone": "18338395453",
+      "created_at": "2026-07-20T08:58:00.368293",
+      "credit_code": "92330803MA2DLK2M48",
+      "entity_type": "individual",
+      "id": 54,
+      "id_card_no": null,
+      "industry_tags": [
+        "旅游",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 35
     },
     {
-      "id": 7,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 286,
-      "project_title": "2025年海南省彩票公益金筹集分配使用情况公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/0400/202606/869fbbd8c5e94f09ba304c97b741dfc9.shtml",
-      "match_score": 0.986,
-      "vector_score": 0.614,
-      "rule_score": 0.428,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.311183",
+      "business_scope": "衢州市衢江区工尺上民宿是一家位于衢州市的民宿旅游企业，成立于2019年，统一社会信用代码：92330803MA2DLJW37B，经营者：易剑华。",
+      "certifications": [],
+      "company_name": "衢州市衢江区工尺上民宿",
+      "contact_email": "contact_7843@example.com",
+      "contact_person": "易剑华",
+      "contact_phone": "19546229474",
+      "created_at": "2026-07-20T08:58:00.311464",
+      "credit_code": "92330803MA2DLJW37B",
+      "entity_type": "individual",
+      "id": 53,
+      "id_card_no": null,
+      "industry_tags": [
+        "旅游",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 34
     },
     {
-      "id": 8,
-      "enterprise_id": 21,
-      "enterprise_name": "海南华弘再生资源销售有限公司",
-      "project_id": 372,
-      "project_title": "《“技能自贸港”五年行动方案（2026-2030年）》印发",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/zxjd/202607/0741e1abcb804c45a05a907f14982e94.shtml",
-      "match_score": 0.986,
-      "vector_score": 0.634,
-      "rule_score": 0.351,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.252878",
+      "business_scope": "衢州市衢江区贝沃工艺品厂是一家位于衢州市的工艺品制造企业，成立于2018年，统一社会信用代码：92330803MA29URT27D，经营者：王治明。",
+      "certifications": [],
+      "company_name": "衢州市衢江区贝沃工艺品厂",
+      "contact_email": "contact_2255@example.com",
+      "contact_person": "王治明",
+      "contact_phone": "18465154927",
+      "created_at": "2026-07-20T08:58:00.253267",
+      "credit_code": "92330803MA29URT27D",
+      "entity_type": "sole_proprietor",
+      "id": 52,
+      "id_card_no": null,
+      "industry_tags": [
+        "工艺品",
+        "制造"
+      ],
+      "qualification_level": "C",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 33
     },
     {
-      "id": 36,
-      "enterprise_id": 27,
-      "enterprise_name": "海南土沉香科技有限公司",
-      "project_id": 337,
-      "project_title": "海南省人民政府办公厅关于印发《海南省“十五五”公共服务规划》的通知",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/szfbgtwj/202606/76e299dd2b1249c9a54f713c0caee2ab.shtml",
-      "match_score": 0.986,
-      "vector_score": 0.582,
-      "rule_score": 0.372,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.195697",
+      "business_scope": "衢州市衢江区邵氏母婴生活馆是一家位于衢州市的母婴用品企业，成立于2018年，统一社会信用代码：92330803MA29TC4W7M，经营者：邵六月古。",
+      "certifications": [],
+      "company_name": "衢州市衢江区邵氏母婴生活馆",
+      "contact_email": "contact_9032@example.com",
+      "contact_person": "邵六月古",
+      "contact_phone": "19516162168",
+      "created_at": "2026-07-20T08:58:00.195981",
+      "credit_code": "92330803MA29TC4W7M",
+      "entity_type": "individual",
+      "id": 51,
+      "id_card_no": null,
+      "industry_tags": [
+        "母婴",
+        "零售"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 32
     },
     {
-      "id": 41,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 38,
-      "project_title": "（机器管招投标）澄迈县仁兴镇垦区基础设施提升工程招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260708/2c9a70e69f276de6019f41430f8e4f93.html",
-      "match_score": 0.985,
-      "vector_score": 0.549,
-      "rule_score": 0.427,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.138758",
+      "business_scope": "衢州市衢江区虹虹超市是一家位于衢州市的零售企业，成立于2022年，统一社会信用代码：92330803MAC1DH1E82，经营者：方三仙。",
+      "certifications": [],
+      "company_name": "衢州市衢江区虹虹超市",
+      "contact_email": "contact_8816@example.com",
+      "contact_person": "方三仙",
+      "contact_phone": "15999378261",
+      "created_at": "2026-07-20T08:58:00.139068",
+      "credit_code": "92330803MAC1DH1E82",
+      "entity_type": "individual",
+      "id": 50,
+      "id_card_no": null,
+      "industry_tags": [
+        "零售"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 31
     },
     {
-      "id": 42,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 45,
-      "project_title": "（机器管招投标）澄迈县城镇雨污分流提质增效工程（初步设计及概算）设计招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260707/2c9a70e69f276de6019f3c8a57b61ba3.html",
-      "match_score": 0.985,
-      "vector_score": 0.597,
-      "rule_score": 0.38,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.080739",
+      "business_scope": "衢州市衢江区思俊菜馆是一家位于衢州市的餐饮服务企业，成立于2018年，统一社会信用代码：92330803MA28FTYL7E，经营者：樊樟龙。",
+      "certifications": [],
+      "company_name": "衢州市衢江区思俊菜馆",
+      "contact_email": "contact_2152@example.com",
+      "contact_person": "樊樟龙",
+      "contact_phone": "13497743773",
+      "created_at": "2026-07-20T08:58:00.081020",
+      "credit_code": "92330803MA28FTYL7E",
+      "entity_type": "individual",
+      "id": 49,
+      "id_card_no": null,
+      "industry_tags": [
+        "餐饮",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 30
     },
     {
-      "id": 43,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 152,
-      "project_title": "金牌西作业区规划修订竞争性磋商公告",
-      "project_industry": "综合服务",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003002/003002002/20260710/8a1d08d39f2ca5fe019f4620835c2218.html",
-      "match_score": 0.985,
-      "vector_score": 0.627,
-      "rule_score": 0.349,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:58:00.020028",
+      "business_scope": "衢州市衢江区园耕记饭店是一家位于衢州市的餐饮服务企业，成立于2024年，统一社会信用代码：92330803MAEL4FYK4Q，经营者：郑志芳。",
+      "certifications": [],
+      "company_name": "衢州市衢江区园耕记饭店",
+      "contact_email": "contact_2348@example.com",
+      "contact_person": "郑志芳",
+      "contact_phone": "13445959873",
+      "created_at": "2026-07-20T08:58:00.020613",
+      "credit_code": "92330803MAEL4FYK4Q",
+      "entity_type": "individual",
+      "id": 48,
+      "id_card_no": null,
+      "industry_tags": [
+        "餐饮",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 29
     },
     {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.961962",
+      "business_scope": "衢州市衢江区恒春石材工艺厂是一家位于衢州市的石材加工企业，成立于2016年，统一社会信用代码：92330803MA2FRH3L9R，经营者：徐海清。",
+      "certifications": [],
+      "company_name": "衢州市衢江区恒春石材工艺厂",
+      "contact_email": "contact_8653@example.com",
+      "contact_person": "徐海清",
+      "contact_phone": "18736930924",
+      "created_at": "2026-07-20T08:57:59.962244",
+      "credit_code": "92330803MA2FRH3L9R",
+      "entity_type": "sole_proprietor",
+      "id": 47,
+      "id_card_no": null,
+      "industry_tags": [
+        "石材",
+        "加工"
+      ],
+      "qualification_level": "C",
+      "region": "衢州市",
+      "service_regions": [
+        "浙江省",
+        "衢州市"
+      ],
+      "status": "approved",
+      "user_id": 28
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.903343",
+      "business_scope": "五指山通什镇黎族手工艺品工作室是一家位于五指山市的手工艺企业，成立于2023年，统一社会信用代码：92460900MA5xxxxa9，经营者：王某。",
+      "certifications": [],
+      "company_name": "五指山通什镇黎族手工艺品工作室",
+      "contact_email": "contact_5945@example.com",
+      "contact_person": "王某",
+      "contact_phone": "19246759229",
+      "created_at": "2026-07-20T08:57:59.903964",
+      "credit_code": "92460900MA5xxxxa9",
+      "entity_type": "individual",
+      "id": 46,
+      "id_card_no": null,
+      "industry_tags": [
+        "手工艺",
+        "文创"
+      ],
+      "qualification_level": "C",
+      "region": "五指山市",
+      "service_regions": [
+        "海南省",
+        "五指山市"
+      ],
+      "status": "approved",
+      "user_id": 27
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.845269",
+      "business_scope": "东方八所镇海蓝水产养殖场是一家位于东方市的水产养殖企业，成立于2023年，统一社会信用代码：92460800MA5xxxxa8，经营者：张某。",
+      "certifications": [],
+      "company_name": "东方八所镇海蓝水产养殖场",
+      "contact_email": "contact_8342@example.com",
+      "contact_person": "张某",
+      "contact_phone": "18245460187",
+      "created_at": "2026-07-20T08:57:59.845562",
+      "credit_code": "92460800MA5xxxxa8",
+      "entity_type": "sole_proprietor",
+      "id": 45,
+      "id_card_no": null,
+      "industry_tags": [
+        "水产",
+        "养殖"
+      ],
+      "qualification_level": "C",
+      "region": "东方市",
+      "service_regions": [
+        "海南省",
+        "东方市"
+      ],
+      "status": "approved",
+      "user_id": 26
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.786225",
+      "business_scope": "洋浦经济开发区恒通物流服务部是一家位于洋浦的物流运输企业，成立于2022年，统一社会信用代码：92469005MA5xxxxa7，经营者：陈某。",
+      "certifications": [],
+      "company_name": "洋浦经济开发区恒通物流服务部",
+      "contact_email": "contact_8305@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "13533318510",
+      "created_at": "2026-07-20T08:57:59.786722",
+      "credit_code": "92469005MA5xxxxa7",
+      "entity_type": "sole_proprietor",
       "id": 44,
-      "enterprise_id": 28,
-      "enterprise_name": "海南腾起农业有限公司",
-      "project_id": 380,
-      "project_title": "《海南省“十五五”应急管理体系和能力建设规划》解读",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/zxjd/202605/9222c5cca67942a5be88032ccbc50932.shtml",
-      "match_score": 0.985,
-      "vector_score": 0.631,
-      "rule_score": 0.408,
-      "match_level": "high",
-      "match_reasons": []
+      "id_card_no": null,
+      "industry_tags": [
+        "物流",
+        "运输"
+      ],
+      "qualification_level": "C",
+      "region": "洋浦",
+      "service_regions": [
+        "海南省",
+        "洋浦经济开发区"
+      ],
+      "status": "approved",
+      "user_id": 25
     },
     {
-      "id": 9,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 286,
-      "project_title": "2025年海南省彩票公益金筹集分配使用情况公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/0400/202606/869fbbd8c5e94f09ba304c97b741dfc9.shtml",
-      "match_score": 0.984,
-      "vector_score": 0.604,
-      "rule_score": 0.348,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.728584",
+      "business_scope": "海口秀英区绿源环保科技服务部是一家位于海口市的环保科技企业，成立于2023年，统一社会信用代码：92460102MA5xxxxa6，经营者：李某。",
+      "certifications": [],
+      "company_name": "海口秀英区绿源环保科技服务部",
+      "contact_email": "contact_7055@example.com",
+      "contact_person": "李某",
+      "contact_phone": "18306046271",
+      "created_at": "2026-07-20T08:57:59.728865",
+      "credit_code": "92460102MA5xxxxa6",
+      "entity_type": "individual",
+      "id": 43,
+      "id_card_no": null,
+      "industry_tags": [
+        "环保",
+        "科技"
+      ],
+      "qualification_level": "C",
+      "region": "海口市",
+      "service_regions": [
+        "海南省",
+        "海口市"
+      ],
+      "status": "approved",
+      "user_id": 24
     },
     {
-      "id": 30,
-      "enterprise_id": 26,
-      "enterprise_name": "海南晟皇贸易有限公司",
-      "project_id": 117,
-      "project_title": "国家级猪种质资源与模型保存与繁育基地项目第六批次设备招标中标公示公告",
-      "project_industry": "农业园林",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260706/1ecd03cea4e106cac27e192691577881.html",
-      "match_score": 0.984,
-      "vector_score": 0.559,
-      "rule_score": 0.36,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.669193",
+      "business_scope": "三亚天涯区海岛文旅工作室是一家位于三亚市的文旅服务企业，成立于2023年，统一社会信用代码：92460201MA5xxxxa5，经营者：周某。",
+      "certifications": [],
+      "company_name": "三亚天涯区海岛文旅工作室",
+      "contact_email": "contact_4477@example.com",
+      "contact_person": "周某",
+      "contact_phone": "19356479467",
+      "created_at": "2026-07-20T08:57:59.669482",
+      "credit_code": "92460201MA5xxxxa5",
+      "entity_type": "individual",
+      "id": 42,
+      "id_card_no": null,
+      "industry_tags": [
+        "文旅",
+        "服务业"
+      ],
+      "qualification_level": "C",
+      "region": "三亚市",
+      "service_regions": [
+        "海南省",
+        "三亚市"
+      ],
+      "status": "approved",
+      "user_id": 23
     },
     {
-      "id": 10,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 127,
-      "project_title": "（机器管招投标）东方市2026年城镇老旧小区改造项目项目(东方市2026年城镇老旧小区改造项目（乡镇一标段）)中标候选人公示",
-      "project_industry": "房屋建筑",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260703/2c9a70829f276dd8019f27729160014b.html",
-      "match_score": 0.983,
-      "vector_score": 0.625,
-      "rule_score": 0.372,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.608702",
+      "business_scope": "海口龙华区创新软件开发工作室是一家位于海口市的软件开发企业，成立于2023年，统一社会信用代码：92460101MA5xxxxa4，经营者：刘某。",
+      "certifications": [],
+      "company_name": "海口龙华区创新软件开发工作室",
+      "contact_email": "contact_7427@example.com",
+      "contact_person": "刘某",
+      "contact_phone": "18314137113",
+      "created_at": "2026-07-20T08:57:59.609242",
+      "credit_code": "92460101MA5xxxxa4",
+      "entity_type": "individual",
+      "id": 41,
+      "id_card_no": null,
+      "industry_tags": [
+        "软件",
+        "IT"
+      ],
+      "qualification_level": "C",
+      "region": "海口市",
+      "service_regions": [
+        "海南省",
+        "海口市"
+      ],
+      "status": "approved",
+      "user_id": 22
     },
     {
-      "id": 11,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 353,
-      "project_title": "海南省人民政府关于废止《海南省建帐监督管理办法》的决定",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/fzfztz/202202/636d00e6b3a441ca97a96a68aca69e79.shtml",
-      "match_score": 0.983,
-      "vector_score": 0.603,
-      "rule_score": 0.398,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.549495",
+      "business_scope": "临高临城海味水产店是一家位于临高县的水产企业，成立于2023年，统一社会信用代码：92469004MA5xxxxa3，经营者：王某。",
+      "certifications": [],
+      "company_name": "临高临城海味水产店",
+      "contact_email": "contact_5957@example.com",
+      "contact_person": "王某",
+      "contact_phone": "19890284442",
+      "created_at": "2026-07-20T08:57:59.549788",
+      "credit_code": "92469004MA5xxxxa3",
+      "entity_type": "individual",
+      "id": 40,
+      "id_card_no": null,
+      "industry_tags": [
+        "水产",
+        "农业"
+      ],
+      "qualification_level": "D",
+      "region": "临高县",
+      "service_regions": [
+        "海南省",
+        "临高县"
+      ],
+      "status": "approved",
+      "user_id": 21
     },
     {
-      "id": 12,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 641,
-      "project_title": "温岭市大溪镇南嵩岩村一事一议支持打造共富试点项目—数字农产品展示中心建设工程中标结果公告[A3300000090001238001001]",
-      "project_industry": "农业园林",
-      "project_province": "浙江省",
-      "project_budget": null,
-      "project_source": "浙江省公共资源交易服务平台",
-      "project_url": "https://ggzy.zj.gov.cn/jyxxgk/002001/002001005/20260717/e023e1a5-8238-4d06-a3ec-7f65bb729918.html",
-      "match_score": 0.983,
-      "vector_score": 0.571,
-      "rule_score": 0.381,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.489493",
+      "business_scope": "屯昌屯城明辉建材店是一家位于屯昌县的建材企业，成立于2022年，统一社会信用代码：92469003MA5xxxxa2，经营者：陈某。",
+      "certifications": [],
+      "company_name": "屯昌屯城明辉建材店",
+      "contact_email": "contact_9797@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "15519341708",
+      "created_at": "2026-07-20T08:57:59.489857",
+      "credit_code": "92469003MA5xxxxa2",
+      "entity_type": "individual",
+      "id": 39,
+      "id_card_no": null,
+      "industry_tags": [
+        "建材",
+        "建筑"
+      ],
+      "qualification_level": "C",
+      "region": "屯昌县",
+      "service_regions": [
+        "海南省",
+        "屯昌县"
+      ],
+      "status": "approved",
+      "user_id": 20
     },
     {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.428807",
+      "business_scope": "定安定城恒丰商贸行是一家位于定安县的商贸企业，成立于2023年，统一社会信用代码：92469002MA5xxxxa1，经营者：吴某。",
+      "certifications": [],
+      "company_name": "定安定城恒丰商贸行",
+      "contact_email": "contact_3079@example.com",
+      "contact_person": "吴某",
+      "contact_phone": "18336134949",
+      "created_at": "2026-07-20T08:57:59.429142",
+      "credit_code": "92469002MA5xxxxa1",
+      "entity_type": "individual",
+      "id": 38,
+      "id_card_no": null,
+      "industry_tags": [
+        "商贸",
+        "零售"
+      ],
+      "qualification_level": "C",
+      "region": "定安县",
+      "service_regions": [
+        "海南省",
+        "定安县"
+      ],
+      "status": "approved",
+      "user_id": 19
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.354921",
+      "business_scope": "保亭保城绿源农业合作社是一家位于保亭县的农业企业，成立于2023年，统一社会信用代码：93469000MA5xxxxx9，经营者：王某。",
+      "certifications": [],
+      "company_name": "保亭保城绿源农业合作社",
+      "contact_email": "contact_7510@example.com",
+      "contact_person": "王某",
+      "contact_phone": "18583111229",
+      "created_at": "2026-07-20T08:57:59.355361",
+      "credit_code": "93469000MA5xxxxx9",
+      "entity_type": "micro_company",
+      "id": 37,
+      "id_card_no": null,
+      "industry_tags": [
+        "农业",
+        "种植"
+      ],
+      "qualification_level": "C",
+      "region": "保亭县",
+      "service_regions": [
+        "海南省",
+        "保亭县"
+      ],
+      "status": "approved",
+      "user_id": 18
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.295941",
+      "business_scope": "陵水椰林海蓝装饰工程部是一家位于陵水县的装饰工程企业，成立于2022年，统一社会信用代码：92469001MA5xxxxx8，经营者：黄某。",
+      "certifications": [],
+      "company_name": "陵水椰林海蓝装饰工程部",
+      "contact_email": "contact_7321@example.com",
+      "contact_person": "黄某",
+      "contact_phone": "18298481818",
+      "created_at": "2026-07-20T08:57:59.296238",
+      "credit_code": "92469001MA5xxxxx8",
+      "entity_type": "sole_proprietor",
+      "id": 36,
+      "id_card_no": null,
+      "industry_tags": [
+        "装饰",
+        "建筑工程"
+      ],
+      "qualification_level": "C",
+      "region": "陵水县",
+      "service_regions": [
+        "海南省",
+        "陵水县"
+      ],
+      "status": "approved",
+      "user_id": 17
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.237851",
+      "business_scope": "澄迈老城创新科技工作室是一家位于澄迈县的科技服务企业，成立于2023年，统一社会信用代码：92469000MA5xxxxx7，经营者：林某。",
+      "certifications": [],
+      "company_name": "澄迈老城创新科技工作室",
+      "contact_email": "contact_8643@example.com",
+      "contact_person": "林某",
+      "contact_phone": "18790904217",
+      "created_at": "2026-07-20T08:57:59.238241",
+      "credit_code": "92469000MA5xxxxx7",
+      "entity_type": "individual",
+      "id": 35,
+      "id_card_no": null,
+      "industry_tags": [
+        "科技",
+        "技术服务"
+      ],
+      "qualification_level": "C",
+      "region": "澄迈县",
+      "service_regions": [
+        "海南省",
+        "澄迈县"
+      ],
+      "status": "approved",
+      "user_id": 16
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.180174",
+      "business_scope": "万宁万城顺通运输服务部是一家位于万宁市的物流运输企业，成立于2023年，统一社会信用代码：92460700MA5xxxxx6，经营者：刘某。",
+      "certifications": [],
+      "company_name": "万宁万城顺通运输服务部",
+      "contact_email": "contact_3399@example.com",
+      "contact_person": "刘某",
+      "contact_phone": "18329640576",
+      "created_at": "2026-07-20T08:57:59.180507",
+      "credit_code": "92460700MA5xxxxx6",
+      "entity_type": "individual",
+      "id": 34,
+      "id_card_no": null,
+      "industry_tags": [
+        "物流",
+        "运输"
+      ],
+      "qualification_level": "D",
+      "region": "万宁市",
+      "service_regions": [
+        "海南省",
+        "万宁市"
+      ],
+      "status": "approved",
+      "user_id": 15
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.121497",
+      "business_scope": "琼海嘉积信达电脑服务部是一家位于琼海市的IT服务企业，成立于2022年，统一社会信用代码：92460600MA5xxxxx5，经营者：张某。",
+      "certifications": [],
+      "company_name": "琼海嘉积信达电脑服务部",
+      "contact_email": "contact_8862@example.com",
+      "contact_person": "张某",
+      "contact_phone": "18293189976",
+      "created_at": "2026-07-20T08:57:59.121893",
+      "credit_code": "92460600MA5xxxxx5",
+      "entity_type": "individual",
+      "id": 33,
+      "id_card_no": null,
+      "industry_tags": [
+        "IT",
+        "信息服务"
+      ],
+      "qualification_level": "C",
+      "region": "琼海市",
+      "service_regions": [
+        "海南省",
+        "琼海市"
+      ],
+      "status": "approved",
+      "user_id": 14
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.063272",
+      "business_scope": "文昌文城永信广告工作室是一家位于文昌市的广告设计企业，成立于2023年，统一社会信用代码：92460500MA5xxxxx4，经营者：陈某。",
+      "certifications": [],
+      "company_name": "文昌文城永信广告工作室",
+      "contact_email": "contact_2764@example.com",
+      "contact_person": "陈某",
+      "contact_phone": "15640273166",
+      "created_at": "2026-07-20T08:57:59.063554",
+      "credit_code": "92460500MA5xxxxx4",
+      "entity_type": "individual",
+      "id": 32,
+      "id_card_no": null,
+      "industry_tags": [
+        "广告",
+        "设计"
+      ],
+      "qualification_level": "D",
+      "region": "文昌市",
+      "service_regions": [
+        "海南省",
+        "文昌市"
+      ],
+      "status": "approved",
+      "user_id": 13
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:59.004788",
+      "business_scope": "儋州那大镇恒发五金店是一家位于儋州市的五金企业，成立于2022年，统一社会信用代码：92460300MA5xxxxx3，经营者：李某。",
+      "certifications": [],
+      "company_name": "儋州那大镇恒发五金店",
+      "contact_email": "contact_3739@example.com",
+      "contact_person": "李某",
+      "contact_phone": "19870237804",
+      "created_at": "2026-07-20T08:57:59.005245",
+      "credit_code": "92460300MA5xxxxx3",
+      "entity_type": "individual",
       "id": 31,
-      "enterprise_id": 26,
-      "enterprise_name": "海南晟皇贸易有限公司",
-      "project_id": 238,
-      "project_title": "境外投资项目备案通知书[海南托玛氏供应链有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202605/c54b00bb90b54a05b012873496ae5fb4.shtml",
-      "match_score": 0.983,
-      "vector_score": 0.557,
-      "rule_score": 0.381,
-      "match_level": "high",
-      "match_reasons": []
+      "id_card_no": null,
+      "industry_tags": [
+        "五金",
+        "建筑"
+      ],
+      "qualification_level": "C",
+      "region": "儋州市",
+      "service_regions": [
+        "海南省",
+        "儋州市"
+      ],
+      "status": "approved",
+      "user_id": 12
     },
     {
-      "id": 90,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 294,
-      "project_title": "海南财金海盈私募基金管理有限公司正式揭牌开业",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/zwdt/202606/8499559aec084150b330036d177cd5c4.shtml",
-      "match_score": 0.983,
-      "vector_score": 0.541,
-      "rule_score": 0.428,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.941860",
+      "business_scope": "三亚吉阳新鸿运建材店是一家位于三亚市的建材企业，成立于2023年，统一社会信用代码：92460200MA5xxxxx2，经营者：王某。",
+      "certifications": [],
+      "company_name": "三亚吉阳新鸿运建材店",
+      "contact_email": "contact_9469@example.com",
+      "contact_person": "王某",
+      "contact_phone": "15855008417",
+      "created_at": "2026-07-20T08:57:58.942189",
+      "credit_code": "92460200MA5xxxxx2",
+      "entity_type": "individual",
+      "id": 30,
+      "id_card_no": null,
+      "industry_tags": [
+        "建材",
+        "建筑"
+      ],
+      "qualification_level": "C",
+      "region": "三亚市",
+      "service_regions": [
+        "海南省",
+        "三亚市"
+      ],
+      "status": "approved",
+      "user_id": 11
     },
     {
-      "id": 13,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 383,
-      "project_title": "关于2025年度海南省支持现代生物医药产业做大做强奖补资金拟支持项目（第一批）的公示",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省工信厅",
-      "project_url": "https://iitb.hainan.gov.cn/iitb/tzgg/202607/772695438e6c40039d88c3f79d1d8698.shtml",
-      "match_score": 0.982,
-      "vector_score": 0.549,
-      "rule_score": 0.409,
-      "match_level": "high",
-      "match_reasons": []
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.882213",
+      "business_scope": "海口美兰区老彭记餐饮店是一家位于海口市的餐饮服务企业，成立于2023年，统一社会信用代码：92460100MA5xxxxx1，经营者：彭某某。",
+      "certifications": [],
+      "company_name": "海口美兰区老彭记餐饮店",
+      "contact_email": "contact_3249@example.com",
+      "contact_person": "彭某某",
+      "contact_phone": "19727519126",
+      "created_at": "2026-07-20T08:57:58.882500",
+      "credit_code": "92460100MA5xxxxx1",
+      "entity_type": "individual",
+      "id": 29,
+      "id_card_no": null,
+      "industry_tags": [
+        "餐饮",
+        "服务业"
+      ],
+      "qualification_level": "D",
+      "region": "海口市",
+      "service_regions": [
+        "海南省",
+        "海口市"
+      ],
+      "status": "approved",
+      "user_id": 10
     },
     {
-      "id": 91,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 221,
-      "project_title": "境外投资项目备案通知书[海南享誉国际投资有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/xmsp/202607/ea995920fcab46b1a9c8aab34144db8f.shtml",
-      "match_score": 0.982,
-      "vector_score": 0.629,
-      "rule_score": 0.412,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 92,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 378,
-      "project_title": "未来五年城市这样更新！四部门详解",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.gov.cn/zhengce/202606/content_7071519.htm",
-      "match_score": 0.982,
-      "vector_score": 0.581,
-      "rule_score": 0.415,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 14,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 212,
-      "project_title": "海口市龙华区人民法院新坡人民法庭建设项目可行性研究报告获批",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/zdxm/202208/da09cdab27b14783bf49bccf39355ce9.shtml",
-      "match_score": 0.981,
-      "vector_score": 0.582,
-      "rule_score": 0.414,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 15,
-      "enterprise_id": 22,
-      "enterprise_name": "海南省兴意科技发展有限公司",
-      "project_id": 301,
-      "project_title": "树立和践行正确政绩观学习教育中央指导组完成进驻",
-      "project_industry": "教育设施",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/zwdt/202604/8b9bc7b6a5a64877928c79ea5c431036.shtml",
-      "match_score": 0.981,
-      "vector_score": 0.636,
-      "rule_score": 0.424,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 26,
-      "enterprise_id": 25,
-      "enterprise_name": "海南盘春贸易有限公司",
-      "project_id": 296,
-      "project_title": "海南省财政厅持续推动惠民惠农财政补贴资金“一卡通”管理  用心用情为群众办实事",
-      "project_industry": "营商环境",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/zwdt/202605/e9373e3679c744feb8caf1cd9fdd6b09.shtml",
-      "match_score": 0.98,
-      "vector_score": 0.573,
-      "rule_score": 0.413,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 93,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 260,
-      "project_title": "境外投资项目备案通知书[海南皓鑫盛科技有限公司境外投资项目]",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/fzgh/202605/5cc91c4140164e2fb2024d492d92f695.shtml",
-      "match_score": 0.98,
-      "vector_score": 0.566,
-      "rule_score": 0.358,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 94,
-      "enterprise_id": 37,
-      "enterprise_name": "保亭保城绿源农业合作社",
-      "project_id": 377,
-      "project_title": "数万亿元将投向这里！国家重要部署",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.gov.cn/zhengce/202606/content_7072197.htm",
-      "match_score": 0.98,
-      "vector_score": 0.58,
-      "rule_score": 0.421,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 16,
-      "enterprise_id": 23,
-      "enterprise_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "project_id": 75,
-      "project_title": "阳光书苑前期物业服务项目招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260703/ff8080819bea6055019f02f719e65b3a.html",
-      "match_score": 0.978,
-      "vector_score": 0.632,
-      "rule_score": 0.371,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 17,
-      "enterprise_id": 23,
-      "enterprise_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "project_id": 137,
-      "project_title": "（机器管招投标）清澜新港一线口岸海关监管场所建设项目项目(清澜新港一线口岸海关监管场所建设项目)中标候选人公示",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001005/20260701/2c9a70e69eee5058019f1b77731220c6.html",
-      "match_score": 0.977,
-      "vector_score": 0.569,
-      "rule_score": 0.391,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 18,
-      "enterprise_id": 23,
-      "enterprise_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "project_id": 285,
-      "project_title": "关于开展海南省2026年上半年第4期省级国库现金管理的公告",
-      "project_industry": "投资/金融",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省财政厅",
-      "project_url": "https://mof.hainan.gov.cn/sczt/0400/202606/b940b306a62546fa8f61f77e13d45d17.shtml",
-      "match_score": 0.977,
-      "vector_score": 0.598,
-      "rule_score": 0.393,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 19,
-      "enterprise_id": 23,
-      "enterprise_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "project_id": 375,
-      "project_title": "国家发展改革委、人力资源社会保障部有关负责人就《实施就业优先战略“十五五”规划》答记者问",
-      "project_industry": "政策规划",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.gov.cn/zhengce/202606/content_7072578.htm",
-      "match_score": 0.977,
-      "vector_score": 0.614,
-      "rule_score": 0.36,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 27,
-      "enterprise_id": 25,
-      "enterprise_name": "海南盘春贸易有限公司",
-      "project_id": 256,
-      "project_title": "省发展改革委下达我省文化保护传承利用工程2024年中央预算内投资",
-      "project_industry": "文旅商业",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省发改委",
-      "project_url": "https://plan.hainan.gov.cn/sfgw/zjxd/202410/f7fb09f59f5f447f95d58fabd051922e.shtml",
-      "match_score": 0.977,
-      "vector_score": 0.559,
-      "rule_score": 0.375,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
-      "id": 20,
-      "enterprise_id": 23,
-      "enterprise_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
-      "project_id": 303,
-      "project_title": "中共海南省委办公厅  海南省人民政府办公厅关于印发《海南省进一步扩大民间投资促进民营经济高质量发展若干措施》的通知",
-      "project_industry": "营商环境",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省政府网站",
-      "project_url": "https://www.hainan.gov.cn/hainan/swygwj/202606/de207e909a7742d3bc6a988e1680dbab.shtml",
-      "match_score": 0.975,
-      "vector_score": 0.581,
-      "rule_score": 0.419,
-      "match_level": "high",
-      "match_reasons": []
-    },
-    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.823977",
+      "business_scope": "海南腾起农业有限公司是一家位于琼中县的农业企业，成立于2025年，统一社会信用代码：91460000MAE9LM4R1E，经营者：代光宇。",
+      "certifications": [],
+      "company_name": "海南腾起农业有限公司",
+      "contact_email": "contact_9089@example.com",
+      "contact_person": "代光宇",
+      "contact_phone": "15845004339",
+      "created_at": "2026-07-20T08:57:58.824316",
+      "credit_code": "91460000MAE9LM4R1E",
+      "entity_type": "micro_company",
       "id": 28,
-      "enterprise_id": 25,
-      "enterprise_name": "海南盘春贸易有限公司",
-      "project_id": 53,
-      "project_title": "三亚市吉阳区海罗安置区（一期）项目前期物业管理服务招标公告",
-      "project_industry": "其他/待分类",
-      "project_province": "海南省",
-      "project_budget": null,
-      "project_source": "省公共资源交易中心",
-      "project_url": "https://ggzy.hainan.gov.cn/jyxx/003001/003001002/20260707/52866e56708b456fd824fe5596381ba2.html",
-      "match_score": 0.975,
-      "vector_score": 0.6,
-      "rule_score": 0.354,
-      "match_level": "high",
-      "match_reasons": []
+      "id_card_no": null,
+      "industry_tags": [
+        "农业",
+        "种植"
+      ],
+      "qualification_level": "C",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 9
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.765130",
+      "business_scope": "海南土沉香科技有限公司是一家位于琼中县的农业科技企业，成立于2025年，统一社会信用代码：91460000MAE7WCQ1XM，经营者：魏锦贤。",
+      "certifications": [],
+      "company_name": "海南土沉香科技有限公司",
+      "contact_email": "contact_6124@example.com",
+      "contact_person": "魏锦贤",
+      "contact_phone": "19205425196",
+      "created_at": "2026-07-20T08:57:58.765439",
+      "credit_code": "91460000MAE7WCQ1XM",
+      "entity_type": "micro_company",
+      "id": 27,
+      "id_card_no": null,
+      "industry_tags": [
+        "农业",
+        "科技"
+      ],
+      "qualification_level": "B",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 8
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.704919",
+      "business_scope": "海南晟皇贸易有限公司是一家位于琼中县的商贸企业，成立于2025年，统一社会信用代码：91460000MAE7QU9T7K，经营者：郭世宇。",
+      "certifications": [],
+      "company_name": "海南晟皇贸易有限公司",
+      "contact_email": "contact_3928@example.com",
+      "contact_person": "郭世宇",
+      "contact_phone": "15283353857",
+      "created_at": "2026-07-20T08:57:58.705443",
+      "credit_code": "91460000MAE7QU9T7K",
+      "entity_type": "micro_company",
+      "id": 26,
+      "id_card_no": null,
+      "industry_tags": [
+        "商贸",
+        "零售"
+      ],
+      "qualification_level": "C",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 7
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.646256",
+      "business_scope": "海南盘春贸易有限公司是一家位于琼中县的商贸企业，成立于2025年，统一社会信用代码：91460000MAEF7XQ0XH，经营者：李青。",
+      "certifications": [],
+      "company_name": "海南盘春贸易有限公司",
+      "contact_email": "contact_7988@example.com",
+      "contact_person": "李青",
+      "contact_phone": "13681904151",
+      "created_at": "2026-07-20T08:57:58.646553",
+      "credit_code": "91460000MAEF7XQ0XH",
+      "entity_type": "micro_company",
+      "id": 25,
+      "id_card_no": null,
+      "industry_tags": [
+        "商贸",
+        "零售"
+      ],
+      "qualification_level": "C",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 6
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.585011",
+      "business_scope": "海南铖旭贸易有限公司是一家位于琼中县的商贸企业，成立于2024年，统一社会信用代码：91460000MAE3DAL82M，经营者：许丽君。",
+      "certifications": [],
+      "company_name": "海南铖旭贸易有限公司",
+      "contact_email": "contact_8442@example.com",
+      "contact_person": "许丽君",
+      "contact_phone": "18380785383",
+      "created_at": "2026-07-20T08:57:58.585382",
+      "credit_code": "91460000MAE3DAL82M",
+      "entity_type": "micro_company",
+      "id": 24,
+      "id_card_no": null,
+      "industry_tags": [
+        "商贸",
+        "零售"
+      ],
+      "qualification_level": "B",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 5
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.521451",
+      "business_scope": "琼中黎族苗族自治县荣华汽车租赁有限公司是一家位于琼中县的汽车服务企业，成立于2024年，统一社会信用代码：91460000MAE2U7G331，经营者：王容进。",
+      "certifications": [],
+      "company_name": "琼中黎族苗族自治县荣华汽车租赁有限公司",
+      "contact_email": "contact_4983@example.com",
+      "contact_person": "王容进",
+      "contact_phone": "19799527154",
+      "created_at": "2026-07-20T08:57:58.521936",
+      "credit_code": "91460000MAE2U7G331",
+      "entity_type": "micro_company",
+      "id": 23,
+      "id_card_no": null,
+      "industry_tags": [
+        "汽车",
+        "运输服务"
+      ],
+      "qualification_level": "C",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 4
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.450503",
+      "business_scope": "海南省兴意科技发展有限公司是一家位于琼中县的科技服务企业，成立于2024年，统一社会信用代码：91460000MAE374KT9E，经营者：谭月萌。",
+      "certifications": [],
+      "company_name": "海南省兴意科技发展有限公司",
+      "contact_email": "contact_1035@example.com",
+      "contact_person": "谭月萌",
+      "contact_phone": "15571096703",
+      "created_at": "2026-07-20T08:57:58.451006",
+      "credit_code": "91460000MAE374KT9E",
+      "entity_type": "micro_company",
+      "id": 22,
+      "id_card_no": null,
+      "industry_tags": [
+        "科技",
+        "技术服务"
+      ],
+      "qualification_level": "B",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 3
+    },
+    {
+      "address": null,
+      "audit_remark": null,
+      "audited_at": "2026-07-20T08:57:58.370660",
+      "business_scope": "海南华弘再生资源销售有限公司是一家位于琼中县的环保回收企业，成立于2024年，统一社会信用代码：91460000MAE1XADG43，经营者：黎玉雷。",
+      "certifications": [],
+      "company_name": "海南华弘再生资源销售有限公司",
+      "contact_email": "contact_5305@example.com",
+      "contact_person": "黎玉雷",
+      "contact_phone": "19173311445",
+      "created_at": "2026-07-20T08:57:58.372704",
+      "credit_code": "91460000MAE1XADG43",
+      "entity_type": "micro_company",
+      "id": 21,
+      "id_card_no": null,
+      "industry_tags": [
+        "环保",
+        "再生资源"
+      ],
+      "qualification_level": "B",
+      "region": "琼中县",
+      "service_regions": [
+        "海南省",
+        "琼中县"
+      ],
+      "status": "approved",
+      "user_id": 2
     }
   ],
+  "top_matches": [],
   "stats": {
     "total_enterprises": 68,
     "total_matches": 378,
     "level_stats": {
-      "B": 4,
-      "C": 40,
-      "D": 24
+      "C": 68
     },
     "industry_stats": {
-      "科技": 6,
-      "技术服务": 2,
-      "农业": 10,
-      "商贸": 7,
-      "零售": 8,
-      "环保": 2,
-      "再生资源": 1,
-      "种植": 4,
-      "五金": 3,
-      "制造": 2,
-      "机械": 1,
-      "加工": 4,
-      "装饰": 2,
-      "建筑工程": 2,
-      "汽车": 1,
-      "运输服务": 1,
-      "食品": 3,
-      "物流": 3,
-      "运输": 3,
-      "茶叶": 1,
-      "石材": 1,
-      "水产": 3,
-      "养殖": 1,
-      "生态": 1,
-      "工艺品": 1,
-      "青瓷": 1,
-      "手工艺": 3,
-      "珠宝": 1,
-      "IT": 4,
-      "信息服务": 2,
-      "建筑": 4,
-      "建材": 3,
-      "数字": 1,
-      "软件": 2,
-      "文化": 2,
-      "咨询": 1,
-      "文旅": 1,
-      "服务业": 9,
-      "信息": 2,
-      "文创": 2,
-      "传媒": 1,
-      "设计": 4,
-      "旅游": 3,
-      "烘焙": 1,
       "渔业": 1,
       "物资": 1,
+      "青瓷": 1,
+      "手工艺": 3,
+      "文创": 2,
+      "设计": 4,
+      "生态": 1,
+      "农业": 10,
+      "食品": 3,
+      "加工": 4,
+      "机械": 1,
+      "珠宝": 1,
+      "信息": 2,
+      "科技": 6,
+      "五金": 3,
+      "制造": 2,
+      "木雕": 1,
+      "商贸": 7,
+      "零售": 8,
+      "广告": 3,
+      "IT": 4,
+      "信息服务": 2,
+      "水产": 3,
+      "建材": 3,
+      "建筑": 4,
+      "文化": 2,
+      "传媒": 1,
+      "物流": 3,
+      "运输": 3,
+      "服务": 1,
+      "种植": 4,
+      "装饰": 2,
+      "建筑工程": 2,
+      "数字": 1,
+      "软件": 2,
+      "咨询": 1,
+      "烘焙": 1,
       "农特产": 1,
+      "体育": 1,
+      "服务业": 9,
       "蜂产品": 1,
       "餐饮": 4,
+      "旅游": 3,
+      "茶叶": 1,
+      "工艺品": 1,
       "母婴": 1,
-      "广告": 3,
-      "服务": 1,
-      "木雕": 1,
-      "体育": 1
+      "石材": 1,
+      "养殖": 1,
+      "环保": 2,
+      "文旅": 1,
+      "技术服务": 2,
+      "汽车": 1,
+      "运输服务": 1,
+      "再生资源": 1
     },
     "region_stats": {
-      "海南省": 26,
-      "琼中县": 8,
-      "浙江省": 42,
-      "金华市": 3,
-      "永康市": 1,
-      "台州市": 5,
-      "保亭县": 1,
-      "杭州市": 5,
-      "陵水县": 1,
-      "温岭市": 4,
-      "洋浦经济开发区": 1,
-      "衢州市": 15,
-      "江山市": 7,
-      "东方市": 1,
-      "湖州市": 1,
-      "宁波市": 3,
-      "丽水市": 2,
-      "龙泉市": 1,
-      "绍兴市": 2,
-      "诸暨市": 1,
-      "琼海市": 1,
-      "儋州市": 1,
-      "海口市": 3,
-      "澄迈县": 1,
-      "温州市": 3,
-      "嘉兴市": 2,
-      "屯昌县": 1,
-      "三亚市": 2,
-      "义乌市": 1,
-      "五指山市": 1,
-      "定安县": 1,
       "舟山市": 1,
-      "万宁市": 1,
-      "文昌市": 1,
-      "临高县": 1,
+      "龙泉市": 1,
+      "丽水市": 1,
+      "湖州市": 1,
+      "温岭市": 4,
+      "台州市": 1,
+      "诸暨市": 1,
+      "绍兴市": 1,
+      "永康市": 1,
       "东阳市": 1,
-      "海宁市": 1
+      "义乌市": 1,
+      "海宁市": 1,
+      "嘉兴市": 1,
+      "温州市": 3,
+      "宁波市": 3,
+      "杭州市": 5,
+      "江山市": 7,
+      "衢州市": 8,
+      "五指山市": 1,
+      "东方市": 1,
+      "洋浦": 1,
+      "海口市": 3,
+      "三亚市": 2,
+      "临高县": 1,
+      "屯昌县": 1,
+      "定安县": 1,
+      "保亭县": 1,
+      "陵水县": 1,
+      "澄迈县": 1,
+      "万宁市": 1,
+      "琼海市": 1,
+      "文昌市": 1,
+      "儋州市": 1,
+      "琼中县": 8
     }
   }
 }
